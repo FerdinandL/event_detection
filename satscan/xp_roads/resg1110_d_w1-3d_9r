@@ -1,0 +1,1605 @@
+                                 _____________________________
+
+                                        SaTScan v9.4.2
+                                 _____________________________
+
+
+Program run on: Tue Jul 19 15:50:32 2016
+
+Retrospective Space-Time analysis
+scanning for clusters with low rates
+using the Space-Time Permutation model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Study period.......................: 2011/10/1 to 2011/10/31
+Number of locations................: 3874
+Total number of cases..............: 19534084
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: 1174, 1333, 2055, 2081, 3347, 3254, 2613, 1173, 1188, 427, 1989,
+                          2959, 2616, 487, 489, 2834, 2612, 1988, 1990, 2958, 3296, 1393, 2323,
+                          3465, 1392
+  Coordinates / radius..: (40.759710 N, 73.972230 W) / 0.28 km
+  Time frame............: 2011/10/29 to 2011/10/30
+  Number of cases.......: 10446
+  Expected cases........: 20738.97
+  Observed / expected...: 0.50
+  Test statistic........: 3131.867791
+
+2.Location IDs included.: 3758, 2609, 1679, 3760, 2042, 769, 1158, 3187, 637, 2607, 1515, 1560,
+                          292, 3434, 3439, 1559, 1168, 1973, 1959, 3352, 2606, 2082, 2039,
+                          1164, 814
+  Coordinates / radius..: (40.755350 N, 73.977410 W) / 0.28 km
+  Time frame............: 2011/10/29 to 2011/10/30
+  Number of cases.......: 12219
+  Expected cases........: 22011.30
+  Observed / expected...: 0.56
+  Test statistic........: 2603.096125
+
+3.Location IDs included.: 596, 595, 599, 1447, 600, 2692, 594, 1436, 3270, 64, 2690, 2695, 60,
+                          66, 601, 289, 2007, 3273, 942, 602, 236, 62, 592, 2031, 67, 3269,
+                          417, 2006, 2686, 3267, 426, 2475, 306, 77, 939, 714, 3286, 3284, 712,
+                          953, 76, 1377, 3287, 1433
+  Coordinates / radius..: (40.719830 N, 73.987540 W) / 0.30 km
+  Time frame............: 2011/10/3 to 2011/10/6
+  Number of cases.......: 21544
+  Expected cases........: 33641.84
+  Observed / expected...: 0.64
+  Test statistic........: 2500.008388
+
+4.Location IDs included.: 2688, 431, 2746, 1199, 357, 2621, 3190, 3476, 1179, 1786, 430, 2745,
+                          2747, 432, 1190, 1169, 654, 3189, 3191, 966, 2620, 2624, 3720, 1185,
+                          1207, 1353, 1073, 1075, 3249
+  Coordinates / radius..: (40.765460 N, 73.970040 W) / 0.29 km
+  Time frame............: 2011/10/29 to 2011/10/30
+  Number of cases.......: 14991
+  Expected cases........: 23773.13
+  Observed / expected...: 0.63
+  Test statistic........: 1871.668979
+
+5.Location IDs included.: 2537, 2604, 2603, 1111, 2536, 3355, 2602, 3100, 1110, 2538, 3680,
+                          2784, 1112, 1113, 466, 720, 1114, 855, 3354, 2067, 1115, 3597, 2601,
+                          2605, 2038, 1116
+  Coordinates / radius..: (40.750900 N, 73.980670 W) / 0.28 km
+  Time frame............: 2011/10/29 to 2011/10/30
+  Number of cases.......: 16086
+  Expected cases........: 24282.47
+  Observed / expected...: 0.66
+  Test statistic........: 1573.889184
+
+6.Location IDs included.: 820, 2656, 2280, 1249, 1325, 439, 827, 1256, 1247, 1326, 3342, 2920,
+                          3343, 2927, 1243, 3711, 438, 409, 440, 411, 2335, 2558, 1254, 1232,
+                          2556, 2198, 2344, 2559
+  Coordinates / radius..: (40.784040 N, 73.956480 W) / 0.29 km
+  Time frame............: 2011/10/8 to 2011/10/9
+  Number of cases.......: 8523
+  Expected cases........: 14402.75
+  Observed / expected...: 0.59
+  Test statistic........: 1409.038760
+
+7.Location IDs included.: 742, 2630, 2772, 1211, 882, 546, 1145, 614, 1212, 888, 2777, 2501,
+                          2779, 2773, 3609, 133, 545, 3211, 547, 1146, 3868, 2633, 1214, 1225,
+                          974, 1379, 299, 1792
+  Coordinates / radius..: (40.774370 N, 73.963540 W) / 0.30 km
+  Time frame............: 2011/10/29 to 2011/10/30
+  Number of cases.......: 10740
+  Expected cases........: 17056.84
+  Observed / expected...: 0.63
+  Test statistic........: 1349.793180
+
+8.Location IDs included.: 2207, 1811, 1810, 1812, 1809, 3499, 1710, 3112, 727, 1704, 1808,
+                          3741, 1709, 1711, 452, 724, 665, 1813, 525, 1807, 1120, 101, 634,
+                          2740, 2742, 3742, 2640, 514, 1399, 3721, 2037, 1953, 723
+  Coordinates / radius..: (40.725580 N, 73.989870 W) / 0.28 km
+  Time frame............: 2011/10/10 to 2011/10/13
+  Number of cases.......: 33753
+  Expected cases........: 44088.94
+  Observed / expected...: 0.77
+  Test statistic........: 1321.915538
+
+9.Location IDs included.: 3044, 796, 1814, 1815, 3780, 1816, 1906, 3042, 3798, 3638, 3417,
+                          3045, 557, 3419, 1905, 1707, 3779, 2800, 3272, 2803, 3797, 3131
+  Coordinates / radius..: (40.729770 N, 73.986810 W) / 0.30 km
+  Time frame............: 2011/10/24 to 2011/10/27
+  Number of cases.......: 24639
+  Expected cases........: 33458.77
+  Observed / expected...: 0.74
+  Test statistic........: 1282.638766
+
+10.Location IDs included.: 2764, 2766, 923, 1668, 3305, 5, 3627, 2077, 721, 3304, 14, 3335,
+                           3306, 2767, 2040, 605, 384, 157, 543, 2683, 3302, 212, 3332, 326,
+                           2770, 2017, 722, 604, 385, 324, 1624, 156, 2684, 57, 2771, 1670,
+                           3336, 1965, 3290, 1058, 3276, 672, 216, 603
+   Coordinates / radius..: (40.720620 N, 73.994960 W) / 0.29 km
+   Time frame............: 2011/10/3 to 2011/10/5
+   Number of cases.......: 16155
+   Expected cases........: 23100.20
+   Observed / expected...: 0.70
+   Test statistic........: 1169.220812
+
+11.Location IDs included.: 1338, 2972, 2974, 2971, 394, 1328, 884, 2979
+   Coordinates / radius..: (40.757600 N, 74.000540 W) / 0.24 km
+   Time frame............: 2011/10/17 to 2011/10/18
+   Number of cases.......: 353
+   Expected cases........: 2115.55
+   Observed / expected...: 0.17
+   Test statistic........: 1130.545049
+
+12.Location IDs included.: 1081, 3533, 3199, 2655, 1204, 1203, 2986, 136, 3530, 1193, 1205,
+                           3200, 2657, 2627, 3198, 2654, 2405, 690, 689, 2402, 3033, 3452, 423,
+                           3572, 2985, 424, 2625, 3681, 422
+   Coordinates / radius..: (40.769100 N, 73.965090 W) / 0.30 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 10915
+   Expected cases........: 16555.66
+   Observed / expected...: 0.66
+   Test statistic........: 1094.394180
+
+13.Location IDs included.: 3206, 575, 576, 94, 965, 2622, 2623, 2685, 2761, 579, 2905
+   Coordinates / radius..: (40.713790 N, 74.013940 W) / 0.22 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 1791
+   Expected cases........: 4546.75
+   Observed / expected...: 0.39
+   Test statistic........: 1087.379427
+
+14.Location IDs included.: 1371, 1386, 1339, 1970, 169, 168
+   Coordinates / radius..: (40.766180 N, 73.997360 W) / 0.084 km
+   Time frame............: 2011/10/26 to 2011/10/28
+   Number of cases.......: 197
+   Expected cases........: 1537.98
+   Observed / expected...: 0.13
+   Test statistic........: 936.190718
+
+15.Location IDs included.: 2312, 416, 2313, 2576, 2314, 2574, 2034, 3448, 3106, 2316, 413,
+                           2577, 340, 2573, 3108, 3162, 1074, 3163, 785, 3161, 189, 2572, 3316,
+                           1018
+   Coordinates / radius..: (40.740940 N, 74.005360 W) / 0.29 km
+   Time frame............: 2011/10/3 to 2011/10/5
+   Number of cases.......: 32863
+   Expected cases........: 41120.91
+   Observed / expected...: 0.80
+   Test statistic........: 892.782290
+
+16.Location IDs included.: 2818, 2817, 2819, 2661, 2919, 2142, 3717, 3582, 3756, 1456, 2813,
+                           3590, 3755, 2820, 3583, 3592, 533, 3308, 3718, 3754, 2812, 787,
+                           1139, 875, 531, 2272, 3821, 3018, 3220, 2662, 3217, 3584, 3221,
+                           3753, 502, 1138, 3802
+   Coordinates / radius..: (40.732310 N, 74.000510 W) / 0.28 km
+   Time frame............: 2011/10/31 to 2011/10/31
+   Number of cases.......: 5376
+   Expected cases........: 9021.34
+   Observed / expected...: 0.60
+   Test statistic........: 862.803250
+
+17.Location IDs included.: 2158, 2157, 2160, 2161, 2133, 3809, 1082, 3203, 2660, 2156, 2162,
+                           1938, 693
+   Coordinates / radius..: (40.764910 N, 73.955160 W) / 0.27 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 4751
+   Expected cases........: 8006.34
+   Observed / expected...: 0.59
+   Test statistic........: 776.164627
+
+18.Location IDs included.: 369, 317, 368, 1475, 27, 319, 1055, 28, 1493, 1437, 1440, 370, 1477,
+                           321, 381
+   Coordinates / radius..: (40.721400 N, 74.009180 W) / 0.16 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 1897
+   Expected cases........: 4126.14
+   Observed / expected...: 0.46
+   Test statistic........: 755.170165
+
+19.Location IDs included.: 3803, 2291, 964, 519, 3422, 3801, 3805, 3049, 960, 2289, 3783, 2292,
+                           976, 518, 3420, 3423, 511
+   Coordinates / radius..: (40.725070 N, 73.981210 W) / 0.27 km
+   Time frame............: 2011/10/24 to 2011/10/27
+   Number of cases.......: 9860
+   Expected cases........: 14150.20
+   Observed / expected...: 0.70
+   Test statistic........: 728.819629
+
+20.Location IDs included.: 762, 1096, 163, 1216, 3228, 1904, 2635, 1238, 3827, 3231, 1095, 162,
+                           1332, 1097, 1944, 1229, 2814, 1606, 1686, 450, 925, 272, 3515, 1250,
+                           924, 2547, 926, 2552
+   Coordinates / radius..: (40.778900 N, 73.960230 W) / 0.30 km
+   Time frame............: 2011/10/15 to 2011/10/16
+   Number of cases.......: 12314
+   Expected cases........: 16829.25
+   Observed / expected...: 0.73
+   Test statistic........: 669.104381
+
+21.Location IDs included.: 2591, 453, 2725, 642, 1321, 2593, 2589, 1062, 2723, 454, 2727, 2220,
+                           2218, 2221, 17, 836
+   Coordinates / radius..: (40.742140 N, 73.987050 W) / 0.22 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 8148
+   Expected cases........: 11709.24
+   Observed / expected...: 0.70
+   Test statistic........: 607.052133
+
+22.Location IDs included.: 1023, 3510, 559, 2807, 1443, 1022, 3509, 3350, 558, 560, 948
+   Coordinates / radius..: (40.730420 N, 73.980350 W) / 0.25 km
+   Time frame............: 2011/10/17 to 2011/10/20
+   Number of cases.......: 10244
+   Expected cases........: 14012.30
+   Observed / expected...: 0.73
+   Test statistic........: 559.798984
+
+23.Location IDs included.: 2626, 1561, 2231, 1269, 3682, 1271, 3365, 2234, 2614, 2858, 2856,
+                           1268, 1272, 1627, 2854, 2229, 2236, 3789, 673, 1665, 736
+   Coordinates / radius..: (40.753600 N, 73.987080 W) / 0.29 km
+   Time frame............: 2011/10/1 to 2011/10/2
+   Number of cases.......: 8343
+   Expected cases........: 11758.35
+   Observed / expected...: 0.71
+   Test statistic........: 552.824329
+
+24.Location IDs included.: 2421, 916, 21, 959, 339, 2054, 2952, 2951, 2953, 1645
+   Coordinates / radius..: (40.751710 N, 74.007810 W) / 0.24 km
+   Time frame............: 2011/10/22 to 2011/10/23
+   Number of cases.......: 898
+   Expected cases........: 2177.51
+   Observed / expected...: 0.41
+   Test statistic........: 484.131385
+
+25.Location IDs included.: 504, 2729, 2466, 503, 1006, 3645, 3648, 934, 2726, 2465, 1007, 505,
+                           2933, 2235, 1824, 1823, 2731, 3486, 2730, 1825, 1822, 2732
+   Coordinates / radius..: (40.742580 N, 73.980410 W) / 0.27 km
+   Time frame............: 2011/10/24 to 2011/10/27
+   Number of cases.......: 23053
+   Expected cases........: 27885.15
+   Observed / expected...: 0.83
+   Test statistic........: 445.800340
+
+26.Location IDs included.: 2874, 2872, 2875, 2876, 2870, 2869, 2877
+   Coordinates / radius..: (40.758640 N, 73.981340 W) / 0.24 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 4001
+   Expected cases........: 6195.84
+   Observed / expected...: 0.65
+   Test statistic........: 445.191811
+
+27.Location IDs included.: 2670, 2667, 2411, 1251, 627, 1273, 2663, 3724, 628, 3457, 11, 363,
+                           1282, 1902, 1739, 1536, 1016, 3791, 1015, 1252
+   Coordinates / radius..: (40.788530 N, 73.953210 W) / 0.29 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 3658
+   Expected cases........: 5770.44
+   Observed / expected...: 0.63
+   Test statistic........: 445.119820
+
+28.Location IDs included.: 716, 870, 869, 809, 1548, 1406, 0, 342, 1715, 3327, 59, 1451, 2,
+                           1714, 2278, 3326, 1729, 3325, 657, 1450, 3328, 1731, 1, 68, 994,
+                           3212, 828, 2862, 3647, 153, 753, 271, 151, 150, 233, 718, 2478, 154,
+                           3549, 2519, 2517
+   Coordinates / radius..: (40.715010 N, 73.996720 W) / 0.29 km
+   Time frame............: 2011/10/17 to 2011/10/20
+   Number of cases.......: 7125
+   Expected cases........: 9937.01
+   Observed / expected...: 0.72
+   Test statistic........: 442.034730
+
+29.Location IDs included.: 2831, 2643, 2026, 2830, 2833, 2829, 2835
+   Coordinates / radius..: (40.740440 N, 73.994590 W) / 0.23 km
+   Time frame............: 2011/10/22 to 2011/10/22
+   Number of cases.......: 2611
+   Expected cases........: 4319.23
+   Observed / expected...: 0.60
+   Test statistic........: 394.075348
+
+30.Location IDs included.: 3227, 404, 3229, 3226, 405, 3232, 403, 2078, 3433, 406, 2074, 3853,
+                           1481, 1506, 337, 184, 408, 1897, 402, 353, 1037, 2084, 3223, 410,
+                           2071, 186, 1546, 1488, 401, 338, 1483, 3588, 3437, 3589, 3587, 3022,
+                           389, 188, 3020, 3025, 3847
+   Coordinates / radius..: (40.735960 N, 74.005120 W) / 0.30 km
+   Time frame............: 2011/10/24 to 2011/10/27
+   Number of cases.......: 29599
+   Expected cases........: 34671.63
+   Observed / expected...: 0.85
+   Test statistic........: 391.284507
+
+31.Location IDs included.: 135, 170, 2557, 3238, 139
+   Coordinates / radius..: (40.774250 N, 73.945260 W) / 0.17 km
+   Time frame............: 2011/10/1 to 2011/10/2
+   Number of cases.......: 653
+   Expected cases........: 1597.76
+   Observed / expected...: 0.41
+   Test statistic........: 360.492287
+
+32.Location IDs included.: 3664, 539, 1685, 2950, 3764, 3662, 2947, 1274, 224, 3763, 2943,
+                           1837, 1835, 3669, 3356, 3357, 3765, 1834, 2954, 3205
+   Coordinates / radius..: (40.752060 N, 73.973500 W) / 0.29 km
+   Time frame............: 2011/10/15 to 2011/10/16
+   Number of cases.......: 12475
+   Expected cases........: 15699.40
+   Observed / expected...: 0.79
+   Test statistic........: 356.715920
+
+33.Location IDs included.: 391, 392, 390, 329, 331
+   Coordinates / radius..: (40.728050 N, 74.007200 W) / 0.15 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 436
+   Expected cases........: 1248.55
+   Observed / expected...: 0.35
+   Test statistic........: 353.855764
+
+34.Location IDs included.: 111, 3142, 3152, 112, 1512, 113, 114, 110, 1923, 583, 1924
+   Coordinates / radius..: (40.788480 N, 73.967030 W) / 0.28 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 2412
+   Expected cases........: 3933.30
+   Observed / expected...: 0.61
+   Test statistic........: 341.835569
+
+35.Location IDs included.: 800, 2642, 2025, 2213, 2212, 2005, 1071, 2215, 2211, 3492, 3816
+   Coordinates / radius..: (40.739080 N, 73.991370 W) / 0.23 km
+   Time frame............: 2011/10/1 to 2011/10/2
+   Number of cases.......: 5959
+   Expected cases........: 8170.06
+   Observed / expected...: 0.73
+   Test statistic........: 330.681705
+
+36.Location IDs included.: 42, 41, 2453, 3653, 3733, 43, 1895, 1100, 1354, 1829, 2459, 1642,
+                           3650, 44, 1830, 829, 3675, 2455, 1828
+   Coordinates / radius..: (40.746030 N, 73.976780 W) / 0.22 km
+   Time frame............: 2011/10/24 to 2011/10/27
+   Number of cases.......: 14589
+   Expected cases........: 17898.78
+   Observed / expected...: 0.82
+   Test statistic........: 327.125460
+
+37.Location IDs included.: 1107, 521, 3483, 1108, 3722, 2598, 1324, 2597, 2935, 1109, 2446, 39,
+                           2934, 3730, 2596, 38
+   Coordinates / radius..: (40.746460 N, 73.981920 W) / 0.22 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 7978
+   Expected cases........: 10402.58
+   Observed / expected...: 0.77
+   Test statistic........: 307.639653
+
+38.Location IDs included.: 3366, 618, 3399, 3132, 3707
+   Coordinates / radius..: (40.760170 N, 74.002760 W) / 0.16 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 852
+   Expected cases........: 1791.33
+   Observed / expected...: 0.48
+   Test statistic........: 306.208309
+
+39.Location IDs included.: 1374, 2111, 2505, 896, 894, 3247, 893, 2159, 895, 3245, 891, 3719,
+                           3243, 2118
+   Coordinates / radius..: (40.702260 N, 74.009220 W) / 0.25 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 2297
+   Expected cases........: 3658.17
+   Observed / expected...: 0.63
+   Test statistic........: 292.285805
+
+40.Location IDs included.: 3418, 2281, 1802, 2488, 1428, 3421, 2283, 2279, 1455, 2487, 2284,
+                           2013, 2860, 1522, 1473, 2014, 2277, 1156, 2012, 2486, 2285, 1457,
+                           1155, 3214, 2015, 1452, 3040, 1157, 2016, 437, 2484, 2907, 3039,
+                           684, 1458, 2521, 3038, 682
+   Coordinates / radius..: (40.718300 N, 74.001830 W) / 0.26 km
+   Time frame............: 2011/10/3 to 2011/10/7
+   Number of cases.......: 15232
+   Expected cases........: 18333.46
+   Observed / expected...: 0.83
+   Test statistic........: 278.769434
+
+41.Location IDs included.: 1286, 3174, 3870, 2247, 2246, 1284, 2248, 1288, 2245, 1283, 2249,
+                           2244, 1289, 225, 2882, 2880, 2883, 3175
+   Coordinates / radius..: (40.764210 N, 73.980980 W) / 0.29 km
+   Time frame............: 2011/10/22 to 2011/10/23
+   Number of cases.......: 13820
+   Expected cases........: 16752.47
+   Observed / expected...: 0.82
+   Test statistic........: 273.323471
+
+42.Location IDs included.: 2287, 3196, 1672, 1673, 2968, 2736
+   Coordinates / radius..: (40.723020 N, 73.998810 W) / 0.16 km
+   Time frame............: 2011/10/15 to 2011/10/15
+   Number of cases.......: 1019
+   Expected cases........: 1947.71
+   Observed / expected...: 0.52
+   Test statistic........: 268.588684
+
+43.Location IDs included.: 2240, 1279, 2241, 2239, 3378, 1278, 2242, 1280, 1277
+   Coordinates / radius..: (40.760100 N, 73.984800 W) / 0.17 km
+   Time frame............: 2011/10/15 to 2011/10/15
+   Number of cases.......: 3189
+   Expected cases........: 4623.06
+   Observed / expected...: 0.69
+   Test statistic........: 249.879955
+
+44.Location IDs included.: 373, 1996, 910, 1995, 2124, 1997, 1029, 2320, 1368
+   Coordinates / radius..: (40.705790 N, 74.005520 W) / 0.13 km
+   Time frame............: 2011/10/1 to 2011/10/2
+   Number of cases.......: 1443
+   Expected cases........: 2456.28
+   Observed / expected...: 0.59
+   Test statistic........: 245.739168
+
+45.Location IDs included.: 3324, 3811, 3705, 3862, 3737, 2758, 3146
+   Coordinates / radius..: (40.769220 N, 73.994860 W) / 0.16 km
+   Time frame............: 2011/10/6 to 2011/10/12
+   Number of cases.......: 594
+   Expected cases........: 1301.28
+   Observed / expected...: 0.46
+   Test statistic........: 241.461896
+
+46.Location IDs included.: 165, 1977, 173, 172, 620, 621, 167
+   Coordinates / radius..: (40.763020 N, 73.999600 W) / 0.16 km
+   Time frame............: 2011/10/19 to 2011/10/21
+   Number of cases.......: 1030
+   Expected cases........: 1878.85
+   Observed / expected...: 0.55
+   Test statistic........: 229.733249
+
+47.Location IDs included.: 516, 3303, 1137, 3751, 3299, 2369, 515, 3734, 3750, 811, 1135, 3752,
+                           1086, 612, 2364, 2806, 3462, 3301, 2804, 2906, 3165, 1215, 2802,
+                           2810
+   Coordinates / radius..: (40.727280 N, 74.000630 W) / 0.30 km
+   Time frame............: 2011/10/24 to 2011/10/27
+   Number of cases.......: 21001
+   Expected cases........: 24248.86
+   Observed / expected...: 0.87
+   Test statistic........: 228.195425
+
+48.Location IDs included.: 1858, 1859, 297, 443, 1857, 3689, 756, 2562, 2554, 1861, 2564, 2555,
+                           3804
+   Coordinates / radius..: (40.778550 N, 73.951240 W) / 0.25 km
+   Time frame............: 2011/10/24 to 2011/10/27
+   Number of cases.......: 13610
+   Expected cases........: 16228.36
+   Observed / expected...: 0.84
+   Test statistic........: 223.780613
+
+49.Location IDs included.: 3385, 1962, 1317, 2349, 2353, 3172, 2347
+   Coordinates / radius..: (40.762850 N, 73.989400 W) / 0.24 km
+   Time frame............: 2011/10/17 to 2011/10/20
+   Number of cases.......: 8974
+   Expected cases........: 10969.20
+   Observed / expected...: 0.82
+   Test statistic........: 193.682553
+
+50.Location IDs included.: 89, 88, 91, 1302, 1453, 87, 975, 86, 2050
+   Coordinates / radius..: (40.771780 N, 73.979190 W) / 0.24 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 2506
+   Expected cases........: 3600.90
+   Observed / expected...: 0.70
+   Test statistic........: 186.515022
+
+51.Location IDs included.: 2734, 566, 506, 2737, 2468, 2735
+   Coordinates / radius..: (40.740020 N, 73.976250 W) / 0.19 km
+   Time frame............: 2011/10/22 to 2011/10/23
+   Number of cases.......: 1238
+   Expected cases........: 2045.73
+   Observed / expected...: 0.61
+   Test statistic........: 185.950934
+
+52.Location IDs included.: 656, 851, 3667, 2878, 1706, 3471, 2362, 2397, 2969, 852, 2360, 2976,
+                           2903, 2365, 2359, 840, 1708, 655, 3079, 2896, 849, 3665
+   Coordinates / radius..: (40.785730 N, 73.976430 W) / 0.28 km
+   Time frame............: 2011/10/17 to 2011/10/20
+   Number of cases.......: 19618
+   Expected cases........: 22388.63
+   Observed / expected...: 0.88
+   Test statistic........: 179.176512
+
+53.Location IDs included.: 485, 917, 1054, 1129, 900, 486, 484, 3873, 3363, 3204, 3445, 3341,
+                           3262
+   Coordinates / radius..: (40.733960 N, 73.977780 W) / 0.29 km
+   Time frame............: 2011/10/17 to 2011/10/20
+   Number of cases.......: 7918
+   Expected cases........: 9716.65
+   Observed / expected...: 0.81
+   Test statistic........: 177.899862
+
+54.Location IDs included.: 1438, 2308, 3334, 2307, 555, 3833, 3153, 972, 2306, 577, 2797, 3159,
+                           7, 3834, 973, 578, 2794, 2305, 1439, 3835, 495, 3154, 556
+   Coordinates / radius..: (40.734460 N, 73.989910 W) / 0.28 km
+   Time frame............: 2011/10/3 to 2011/10/6
+   Number of cases.......: 28341
+   Expected cases........: 31555.12
+   Observed / expected...: 0.90
+   Test statistic........: 169.815022
+
+55.Location IDs included.: 1841, 2975, 491
+   Coordinates / radius..: (40.756120 N, 73.967600 W) / 0.081 km
+   Time frame............: 2011/10/3 to 2011/10/5
+   Number of cases.......: 3453
+   Expected cases........: 4646.82
+   Observed / expected...: 0.74
+   Test statistic........: 168.523422
+
+56.Location IDs included.: 1410, 8, 3553, 3307, 3731, 1408
+   Coordinates / radius..: (40.729820 N, 74.010470 W) / 0.11 km
+   Time frame............: 2011/10/24 to 2011/10/26
+   Number of cases.......: 518
+   Expected cases........: 1042.98
+   Observed / expected...: 0.50
+   Test statistic........: 162.459861
+
+57.Location IDs included.: 3861, 3860, 674, 2345, 56, 2346, 1563, 1091, 816, 2342, 1975, 1782,
+                           2791, 1329, 3436, 2340, 312, 3438
+   Coordinates / radius..: (40.758970 N, 73.993930 W) / 0.29 km
+   Time frame............: 2011/10/24 to 2011/10/28
+   Number of cases.......: 22438
+   Expected cases........: 25241.52
+   Observed / expected...: 0.89
+   Test statistic........: 161.998919
+
+58.Location IDs included.: 1508, 203, 201, 204, 200, 3642, 3092, 3143, 3088, 733, 735
+   Coordinates / radius..: (40.751520 N, 73.993940 W) / 0.29 km
+   Time frame............: 2011/10/14 to 2011/10/15
+   Number of cases.......: 24726
+   Expected cases........: 27661.94
+   Observed / expected...: 0.89
+   Test statistic........: 161.851063
+
+59.Location IDs included.: 1903, 568, 957, 20, 1033, 3867, 1334, 1318, 3644, 2112, 2109, 3710,
+                           1987, 956, 738
+   Coordinates / radius..: (40.751440 N, 74.001430 W) / 0.29 km
+   Time frame............: 2011/10/3 to 2011/10/6
+   Number of cases.......: 7223
+   Expected cases........: 8859.94
+   Observed / expected...: 0.82
+   Test statistic........: 161.569830
+
+60.Location IDs included.: 3193, 3679, 2751, 3192, 3034, 3678, 2749, 2981
+   Coordinates / radius..: (40.764680 N, 73.964290 W) / 0.17 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 4210
+   Expected cases........: 5473.95
+   Observed / expected...: 0.77
+   Test statistic........: 158.707629
+
+61.Location IDs included.: 1148, 977, 2775, 1147, 3684, 425, 1985, 2774
+   Coordinates / radius..: (40.771050 N, 73.959650 W) / 0.17 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 4494
+   Expected cases........: 5787.88
+   Observed / expected...: 0.78
+   Test statistic........: 156.837722
+
+62.Location IDs included.: 464, 2075, 3766, 1140, 527, 1141
+   Coordinates / radius..: (40.750080 N, 73.968830 W) / 0.23 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 930
+   Expected cases........: 1576.56
+   Observed / expected...: 0.59
+   Test statistic........: 155.701185
+
+63.Location IDs included.: 400, 509, 3293, 383, 2799, 2796, 2786, 507, 2795, 202, 3294, 1143,
+                           9, 1519, 1674, 1134, 3672, 2801
+   Coordinates / radius..: (40.723680 N, 74.003630 W) / 0.21 km
+   Time frame............: 2011/10/31 to 2011/10/31
+   Number of cases.......: 2415
+   Expected cases........: 3384.97
+   Observed / expected...: 0.71
+   Test statistic........: 154.578706
+
+64.Location IDs included.: 1079, 223, 382, 2648, 1039, 3501, 572, 1077, 2647, 1544, 2571, 766,
+                           802, 2570, 2033
+   Coordinates / radius..: (40.744690 N, 74.008240 W) / 0.24 km
+   Time frame............: 2011/10/30 to 2011/10/31
+   Number of cases.......: 3819
+   Expected cases........: 5010.12
+   Observed / expected...: 0.76
+   Test statistic........: 154.407152
+
+65.Location IDs included.: 2358, 1479, 3242, 1907, 3176, 899, 1487, 2326, 2327, 3055, 227, 228,
+                           3602, 1291, 898, 1069, 226, 1958
+   Coordinates / radius..: (40.768580 N, 73.985230 W) / 0.30 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 14903
+   Expected cases........: 17128.69
+   Observed / expected...: 0.87
+   Test statistic........: 151.434356
+
+66.Location IDs included.: 550, 1853, 1854, 1852, 931
+   Coordinates / radius..: (40.772620 N, 73.955570 W) / 0.18 km
+   Time frame............: 2011/10/17 to 2011/10/20
+   Number of cases.......: 6425
+   Expected cases........: 7876.89
+   Observed / expected...: 0.82
+   Test statistic........: 142.936312
+
+67.Location IDs included.: 1521, 208, 1518, 3683
+   Coordinates / radius..: (40.755950 N, 73.990720 W) / 0.16 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 6376
+   Expected cases........: 7817.58
+   Observed / expected...: 0.82
+   Test statistic........: 141.986897
+
+68.Location IDs included.: 3230, 3800, 2884, 2352, 2354, 2855, 1701, 1699, 1702, 3071, 2918,
+                           2355, 2350, 2942, 3070, 3072, 3371, 990, 3069, 3073, 2962, 2183,
+                           3216, 2182, 1696, 2184
+   Coordinates / radius..: (40.781050 N, 73.981420 W) / 0.29 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 14215
+   Expected cases........: 16253.80
+   Observed / expected...: 0.87
+   Test statistic........: 133.684103
+
+69.Location IDs included.: 3654, 3655, 3652, 1448, 277, 276, 2523, 1427, 750, 749, 3656, 279,
+                           1429, 1449, 13, 751, 803, 3651, 75, 585, 792, 791, 1585, 221, 1558,
+                           794, 275, 540, 798
+   Coordinates / radius..: (40.714130 N, 73.989330 W) / 0.30 km
+   Time frame............: 2011/10/3 to 2011/10/6
+   Number of cases.......: 4133
+   Expected cases........: 5264.45
+   Observed / expected...: 0.79
+   Test statistic........: 131.407090
+
+70.Location IDs included.: 108, 2768, 2388, 107, 19, 2317, 2196, 160, 350, 2315, 2253, 2151,
+                           2197, 2473
+   Coordinates / radius..: (40.704790 N, 74.014920 W) / 0.21 km
+   Time frame............: 2011/10/29 to 2011/10/29
+   Number of cases.......: 1381
+   Expected cases........: 2074.01
+   Observed / expected...: 0.67
+   Test statistic........: 131.402981
+
+71.Location IDs included.: 2575, 2011, 1682, 2010
+   Coordinates / radius..: (40.715290 N, 74.000780 W) / 0.11 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 263
+   Expected cases........: 619.45
+   Observed / expected...: 0.42
+   Test statistic........: 131.144699
+
+72.Location IDs included.: 2945, 905, 2915, 2370, 2965, 2368, 904, 907, 584, 815, 2932, 2371,
+                           2902, 2367
+   Coordinates / radius..: (40.790180 N, 73.974950 W) / 0.16 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 5230
+   Expected cases........: 6458.60
+   Observed / expected...: 0.81
+   Test statistic........: 125.101459
+
+73.Location IDs included.: 2333, 1047, 2336, 1910, 1912, 2331, 2337, 1571, 1908
+   Coordinates / radius..: (40.772230 N, 73.982310 W) / 0.16 km
+   Time frame............: 2011/10/31 to 2011/10/31
+   Number of cases.......: 3988
+   Expected cases........: 5034.62
+   Observed / expected...: 0.79
+   Test statistic........: 117.251088
+
+74.Location IDs included.: 3637, 1737, 613, 3117, 127, 1094, 1526, 638, 1740, 3116, 3377, 3107,
+                           629, 2399, 2396
+   Coordinates / radius..: (40.806130 N, 73.961540 W) / 0.30 km
+   Time frame............: 2011/10/1 to 2011/10/2
+   Number of cases.......: 3124
+   Expected cases........: 4056.04
+   Observed / expected...: 0.77
+   Test statistic........: 116.408194
+
+75.Location IDs included.: 2811, 859, 1153, 1819, 1818, 857, 3425, 1514, 950, 561, 3052, 1444
+   Coordinates / radius..: (40.726100 N, 73.974260 W) / 0.29 km
+   Time frame............: 2011/10/24 to 2011/10/27
+   Number of cases.......: 1580
+   Expected cases........: 2261.31
+   Observed / expected...: 0.70
+   Test statistic........: 114.861049
+
+76.Location IDs included.: 3368, 2030, 3818, 193, 3442, 2645, 1476, 2894, 1227, 1426
+   Coordinates / radius..: (40.744000 N, 73.999420 W) / 0.28 km
+   Time frame............: 2011/10/24 to 2011/10/27
+   Number of cases.......: 11756
+   Expected cases........: 13458.88
+   Observed / expected...: 0.87
+   Test statistic........: 112.657566
+
+77.Location IDs included.: 1219, 3562, 3595, 3622, 1218, 3594, 3596, 3676, 3561, 2298, 2299,
+                           298
+   Coordinates / radius..: (40.729770 N, 73.995300 W) / 0.17 km
+   Time frame............: 2011/10/7 to 2011/10/9
+   Number of cases.......: 2555
+   Expected cases........: 3382.60
+   Observed / expected...: 0.76
+   Test statistic........: 110.703193
+
+78.Location IDs included.: 985, 3836, 846, 1057, 2051, 847, 553, 1316, 706, 707, 3605, 1358,
+                           649, 1356
+   Coordinates / radius..: (40.737940 N, 73.986830 W) / 0.18 km
+   Time frame............: 2011/10/8 to 2011/10/10
+   Number of cases.......: 11026
+   Expected cases........: 12587.41
+   Observed / expected...: 0.88
+   Test statistic........: 101.177796
+
+79.Location IDs included.: 678, 812, 1914, 807, 3370, 2893, 2897, 1913, 2343, 2341, 1915, 2832,
+                           2955, 96, 2850, 679, 2193, 1694
+   Coordinates / radius..: (40.776720 N, 73.979290 W) / 0.28 km
+   Time frame............: 2011/10/17 to 2011/10/21
+   Number of cases.......: 29006
+   Expected cases........: 31439.44
+   Observed / expected...: 0.92
+   Test statistic........: 96.855576
+
+80.Location IDs included.: 2677, 1345, 1363, 420, 1344, 2262, 2261, 2264, 2260, 1304, 908, 53,
+                           2565, 1365, 1517, 3314, 2259, 2265, 2563, 913, 1343, 1206, 1553,
+                           1826, 1366, 3310, 1478, 2266, 1549, 1348, 713, 2561, 914, 715, 3850,
+                           1993, 839, 3603
+   Coordinates / radius..: (40.710220 N, 74.007740 W) / 0.30 km
+   Time frame............: 2011/10/4 to 2011/10/6
+   Number of cases.......: 12542
+   Expected cases........: 14142.30
+   Observed / expected...: 0.89
+   Test statistic........: 94.230242
+
+81.Location IDs included.: 352, 1036, 1435, 3431, 3158
+   Coordinates / radius..: (40.735310 N, 73.994110 W) / 0.17 km
+   Time frame............: 2011/10/1 to 2011/10/2
+   Number of cases.......: 2538
+   Expected cases........: 3289.15
+   Observed / expected...: 0.77
+   Test statistic........: 93.180800
+
+82.Location IDs included.: 1888, 2671, 1534, 2401, 2672, 1041
+   Coordinates / radius..: (40.810370 N, 73.963470 W) / 0.12 km
+   Time frame............: 2011/10/1 to 2011/10/2
+   Number of cases.......: 372
+   Expected cases........: 698.09
+   Observed / expected...: 0.53
+   Test statistic........: 91.937896
+
+83.Location IDs included.: 1499, 2592, 1698, 1532, 386, 1496, 1705, 1125, 1230, 448, 1465, 300,
+                           197
+   Coordinates / radius..: (40.724380 N, 74.007110 W) / 0.16 km
+   Time frame............: 2011/10/22 to 2011/10/23
+   Number of cases.......: 1928
+   Expected cases........: 2582.54
+   Observed / expected...: 0.75
+   Test statistic........: 91.014529
+
+84.Location IDs included.: 3686, 549, 1603, 2993, 2781, 2474, 548, 930
+   Coordinates / radius..: (40.774270 N, 73.957320 W) / 0.18 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 4473
+   Expected cases........: 5436.62
+   Observed / expected...: 0.82
+   Test statistic........: 90.969541
+
+85.Location IDs included.: 1866, 3795, 1865, 1863, 393, 2203, 2204, 3794, 3690, 3330, 1862,
+                           412, 1867, 3344, 3691
+   Coordinates / radius..: (40.782940 N, 73.948030 W) / 0.27 km
+   Time frame............: 2011/10/17 to 2011/10/20
+   Number of cases.......: 9339
+   Expected cases........: 10699.76
+   Observed / expected...: 0.87
+   Test statistic........: 90.496206
+
+86.Location IDs included.: 2843, 2348
+   Coordinates / radius..: (40.753910 N, 73.999630 W) / 0.085 km
+   Time frame............: 2011/10/22 to 2011/10/23
+   Number of cases.......: 484
+   Expected cases........: 841.80
+   Observed / expected...: 0.57
+   Test statistic........: 89.929918
+
+87.Location IDs included.: 2064, 1370, 334, 335, 396, 194, 1420, 395
+   Coordinates / radius..: (40.731050 N, 74.008020 W) / 0.13 km
+   Time frame............: 2011/10/15 to 2011/10/16
+   Number of cases.......: 1849
+   Expected cases........: 2484.32
+   Observed / expected...: 0.74
+   Test statistic........: 89.220922
+
+88.Location IDs included.: 2540, 3661
+   Coordinates / radius..: (40.748860 N, 73.975830 W) / 0.078 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 1254
+   Expected cases........: 1782.35
+   Observed / expected...: 0.70
+   Test statistic........: 87.457793
+
+89.Location IDs included.: 374, 2715, 375, 695, 2924, 377, 2923, 696, 1878, 2941, 2714, 414,
+                           378, 313, 379, 1873, 1909, 314, 3218, 307, 372, 315, 479, 3715, 481,
+                           380, 2713, 415, 477, 3183, 316, 2106
+   Coordinates / radius..: (40.717920 N, 74.008940 W) / 0.27 km
+   Time frame............: 2011/10/2 to 2011/10/2
+   Number of cases.......: 3868
+   Expected cases........: 4736.48
+   Observed / expected...: 0.82
+   Test statistic........: 85.010080
+
+90.Location IDs included.: 1940, 126, 1937, 3048, 2495, 3046, 3447, 2871, 3444, 832, 270, 122,
+                           635, 123, 1734, 1131, 121, 1735, 1733, 231
+   Coordinates / radius..: (40.801160 N, 73.961430 W) / 0.29 km
+   Time frame............: 2011/10/24 to 2011/10/26
+   Number of cases.......: 2959
+   Expected cases........: 3700.60
+   Observed / expected...: 0.80
+   Test statistic........: 79.851942
+
+91.Location IDs included.: 2227, 2846, 2226, 2847
+   Coordinates / radius..: (40.748280 N, 73.988180 W) / 0.092 km
+   Time frame............: 2011/10/3 to 2011/10/6
+   Number of cases.......: 7672
+   Expected cases........: 8827.76
+   Observed / expected...: 0.87
+   Test statistic........: 79.228682
+
+92.Location IDs included.: 2165, 2166, 2164, 2167, 2163, 3059, 890
+   Coordinates / radius..: (40.769450 N, 73.951840 W) / 0.22 km
+   Time frame............: 2011/10/8 to 2011/10/10
+   Number of cases.......: 4520
+   Expected cases........: 5415.30
+   Observed / expected...: 0.83
+   Test statistic........: 78.483503
+
+93.Location IDs included.: 36, 730, 3859, 1901, 1076, 2542, 3600, 185, 187, 1136, 2949, 3140,
+                           728, 1290, 3599
+   Coordinates / radius..: (40.746030 N, 73.971080 W) / 0.22 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 2162
+   Expected cases........: 2794.62
+   Observed / expected...: 0.77
+   Test statistic........: 77.725875
+
+94.Location IDs included.: 877, 3251, 3473, 1509, 1415
+   Coordinates / radius..: (40.758030 N, 73.960180 W) / 0.17 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 707
+   Expected cases........: 1070.47
+   Observed / expected...: 0.66
+   Test statistic........: 70.195148
+
+95.Location IDs included.: 848, 106, 1530, 2334, 1032
+   Coordinates / radius..: (40.783970 N, 73.970320 W) / 0.17 km
+   Time frame............: 2011/10/29 to 2011/10/30
+   Number of cases.......: 1842
+   Expected cases........: 2395.79
+   Observed / expected...: 0.77
+   Test statistic........: 69.606709
+
+96.Location IDs included.: 1223, 1072, 1221, 2644, 1220, 1226
+   Coordinates / radius..: (40.739880 N, 73.998710 W) / 0.22 km
+   Time frame............: 2011/10/17 to 2011/10/21
+   Number of cases.......: 10596
+   Expected cases........: 11840.12
+   Observed / expected...: 0.89
+   Test statistic........: 67.821271
+
+97.Location IDs included.: 3568, 3573, 1541, 3565, 3571, 2129, 359
+   Coordinates / radius..: (40.707270 N, 74.001340 W) / 0.12 km
+   Time frame............: 2011/10/17 to 2011/10/21
+   Number of cases.......: 1345
+   Expected cases........: 1812.50
+   Observed / expected...: 0.74
+   Test statistic........: 66.275633
+
+98.Location IDs included.: 1192, 968, 1576, 1009, 3271, 1577, 3714, 1019
+   Coordinates / radius..: (40.785840 N, 73.983710 W) / 0.13 km
+   Time frame............: 2011/10/24 to 2011/10/30
+   Number of cases.......: 462
+   Expected cases........: 751.69
+   Observed / expected...: 0.61
+   Test statistic........: 64.807967
+
+99.Location IDs included.: 2255, 2254, 2821, 2256, 1403, 1253, 2257
+   Coordinates / radius..: (40.707450 N, 74.011940 W) / 0.15 km
+   Time frame............: 2011/10/10 to 2011/10/10
+   Number of cases.......: 344
+   Expected cases........: 598.06
+   Observed / expected...: 0.58
+   Test statistic........: 63.813924
+
+100.Location IDs included.: 361, 325
+    Coordinates / radius..: (40.725910 N, 74.008340 W) / 0.064 km
+    Time frame............: 2011/10/11 to 2011/10/13
+    Number of cases.......: 745
+    Expected cases........: 1096.02
+    Observed / expected...: 0.68
+    Test statistic........: 63.411502
+
+101.Location IDs included.: 1381, 963, 1383, 284, 1380, 2270
+    Coordinates / radius..: (40.804440 N, 73.939670 W) / 0.090 km
+    Time frame............: 2011/10/29 to 2011/10/30
+    Number of cases.......: 1122
+    Expected cases........: 1538.98
+    Observed / expected...: 0.73
+    Test statistic........: 62.424124
+
+102.Location IDs included.: 909, 92
+    Coordinates / radius..: (40.710960 N, 74.014480 W) / 0.020 km
+    Time frame............: 2011/10/29 to 2011/10/30
+    Number of cases.......: 113
+    Expected cases........: 273.21
+    Observed / expected...: 0.41
+    Test statistic........: 60.450580
+
+103.Location IDs included.: 3479, 3478, 3480, 1234, 1235, 1233, 241, 240, 242, 2676, 50, 2675,
+                            3477, 1772, 911, 239, 3663, 1680, 3481, 243, 3556
+    Coordinates / radius..: (40.805020 N, 73.952760 W) / 0.30 km
+    Time frame............: 2011/10/11 to 2011/10/13
+    Number of cases.......: 1274
+    Expected cases........: 1697.64
+    Observed / expected...: 0.75
+    Test statistic........: 57.908183
+
+104.Location IDs included.: 1667, 2391, 3376, 1445, 3374, 2389, 1626, 1623, 3373, 3381
+    Coordinates / radius..: (40.804820 N, 73.966230 W) / 0.16 km
+    Time frame............: 2011/10/8 to 2011/10/10
+    Number of cases.......: 5851
+    Expected cases........: 6712.39
+    Observed / expected...: 0.87
+    Test statistic........: 57.817754
+
+105.Location IDs included.: 2914, 1038, 109, 653
+    Coordinates / radius..: (40.734590 N, 73.984340 W) / 0.11 km
+    Time frame............: 2011/10/22 to 2011/10/23
+    Number of cases.......: 842
+    Expected cases........: 1192.57
+    Observed / expected...: 0.71
+    Test statistic........: 57.483937
+
+106.Location IDs included.: 2419, 3393, 2214, 2418, 3394, 3392, 3646, 3395, 2417, 3391, 1633,
+                            883, 1632, 3076, 1634, 1419, 3713, 3630, 3390, 2422, 3396, 3716,
+                            1281, 675, 3815
+    Coordinates / radius..: (40.824570 N, 73.951980 W) / 0.28 km
+    Time frame............: 2011/10/11 to 2011/10/13
+    Number of cases.......: 1221
+    Expected cases........: 1632.11
+    Observed / expected...: 0.75
+    Test statistic........: 56.776790
+
+107.Location IDs included.: 945, 2107, 18, 148, 1231, 3633, 149, 199, 2842, 2104, 2841, 318
+    Coordinates / radius..: (40.747230 N, 73.993350 W) / 0.28 km
+    Time frame............: 2011/10/22 to 2011/10/22
+    Number of cases.......: 5794
+    Expected cases........: 6640.28
+    Observed / expected...: 0.87
+    Test statistic........: 56.394693
+
+108.Location IDs included.: 2910, 2209, 30, 2909, 2510, 468, 1012, 451, 2911, 3013, 465, 1017,
+                            34, 3693, 1986, 469, 1869, 1971, 3014, 1806
+    Coordinates / radius..: (40.788990 N, 73.946540 W) / 0.30 km
+    Time frame............: 2011/10/17 to 2011/10/20
+    Number of cases.......: 2549
+    Expected cases........: 3108.84
+    Observed / expected...: 0.82
+    Test statistic........: 53.747136
+
+109.Location IDs included.: 3005, 563, 480
+    Coordinates / radius..: (40.729440 N, 74.005180 W) / 0.094 km
+    Time frame............: 2011/10/29 to 2011/10/30
+    Number of cases.......: 1220
+    Expected cases........: 1602.33
+    Observed / expected...: 0.76
+    Test statistic........: 49.750935
+
+110.Location IDs included.: 1083, 1945, 3408, 3409, 2436, 2435, 1950, 1588, 3407, 2434, 3410,
+                            2437, 1586, 1951, 1649, 3411, 3406, 2438, 2433, 1587, 872, 1040,
+                            1766, 1767
+    Coordinates / radius..: (40.835280 N, 73.943910 W) / 0.28 km
+    Time frame............: 2011/10/17 to 2011/10/21
+    Number of cases.......: 1442
+    Expected cases........: 1843.09
+    Observed / expected...: 0.78
+    Test statistic........: 47.209589
+
+111.Location IDs included.: 683, 278, 349, 348, 70, 280, 3852, 347, 90, 2824, 2828, 16, 1405,
+                            3851
+    Coordinates / radius..: (40.709490 N, 74.013880 W) / 0.17 km
+    Time frame............: 2011/10/3 to 2011/10/7
+    Number of cases.......: 9050
+    Expected cases........: 10001.95
+    Observed / expected...: 0.90
+    Test statistic........: 46.834297
+
+112.Location IDs included.: 1513, 2610, 1510, 860, 3770, 285, 1028, 286, 1026, 1564, 823, 1031,
+                            1030
+    Coordinates / radius..: (40.819700 N, 73.960140 W) / 0.27 km
+    Time frame............: 2011/10/25 to 2011/10/27
+    Number of cases.......: 326
+    Expected cases........: 531.81
+    Observed / expected...: 0.61
+    Test statistic........: 46.269825
+
+113.Location IDs included.: 1208, 1369
+    Coordinates / radius..: (40.802430 N, 73.940770 W) / 0.027 km
+    Time frame............: 2011/10/14 to 2011/10/20
+    Number of cases.......: 45
+    Expected cases........: 142.38
+    Observed / expected...: 0.32
+    Test statistic........: 45.550582
+
+114.Location IDs included.: 1732, 1730, 775, 2853, 2967, 3615, 2385, 833, 2384, 2888, 2387,
+                            2961, 2383, 1728, 3450, 1800, 1935, 2901, 3103, 834, 2382, 774
+    Coordinates / radius..: (40.799120 N, 73.966650 W) / 0.28 km
+    Time frame............: 2011/10/24 to 2011/10/26
+    Number of cases.......: 7581
+    Expected cases........: 8436.92
+    Observed / expected...: 0.90
+    Test statistic........: 44.982799
+
+115.Location IDs included.: 826, 85, 3839, 435, 436, 1846, 1398, 1175, 967, 2491, 1396, 2752,
+                            2754, 669, 1267, 3194, 1845, 3195
+    Coordinates / radius..: (40.761420 N, 73.962380 W) / 0.27 km
+    Time frame............: 2011/10/3 to 2011/10/6
+    Number of cases.......: 16174
+    Expected cases........: 17358.00
+    Observed / expected...: 0.93
+    Test statistic........: 41.367694
+
+116.Location IDs included.: 2705, 176, 2021, 2706, 2020, 1389, 3280, 2022, 2019, 2704, 2707,
+                            175, 177, 3281, 589, 3279, 1542, 229, 3660, 2324, 2018, 590, 3659,
+                            2023
+    Coordinates / radius..: (40.716970 N, 73.982280 W) / 0.28 km
+    Time frame............: 2011/10/17 to 2011/10/20
+    Number of cases.......: 1111
+    Expected cases........: 1441.98
+    Observed / expected...: 0.77
+    Test statistic........: 41.283126
+
+117.Location IDs included.: 1242, 3704, 296, 1244, 3772, 291, 625
+    Coordinates / radius..: (40.815300 N, 73.943690 W) / 0.24 km
+    Time frame............: 2011/10/24 to 2011/10/27
+    Number of cases.......: 229
+    Expected cases........: 392.94
+    Observed / expected...: 0.58
+    Test statistic........: 40.297380
+
+118.Location IDs included.: 1647, 662, 3148, 580, 1590, 1952, 1270
+    Coordinates / radius..: (40.840920 N, 73.944490 W) / 0.23 km
+    Time frame............: 2011/10/8 to 2011/10/9
+    Number of cases.......: 90
+    Expected cases........: 200.51
+    Observed / expected...: 0.45
+    Test statistic........: 38.414094
+
+119.Location IDs included.: 1298, 3841, 1228, 1308, 1591, 1801, 3840, 48, 344, 473, 2687, 2689,
+                            3523, 3842, 3019, 3017, 472, 2691, 3021, 474, 1144, 2579, 3348,
+                            2585, 2580, 3349, 3345
+    Coordinates / radius..: (40.795550 N, 73.946150 W) / 0.30 km
+    Time frame............: 2011/10/11 to 2011/10/13
+    Number of cases.......: 1148
+    Expected cases........: 1468.25
+    Observed / expected...: 0.78
+    Test statistic........: 37.786434
+
+120.Location IDs included.: 2977, 1523, 1311, 2710, 1005, 3485, 3636, 1312, 3484, 3058, 3487,
+                            1310, 2711, 1644, 1313, 245, 2066, 3482, 1684, 244, 2060, 1309,
+                            246, 3488, 498, 1505
+    Coordinates / radius..: (40.810320 N, 73.953630 W) / 0.29 km
+    Time frame............: 2011/10/11 to 2011/10/13
+    Number of cases.......: 748
+    Expected cases........: 1007.33
+    Observed / expected...: 0.74
+    Test statistic........: 36.685907
+
+121.Location IDs included.: 1791, 1790, 1793, 740, 1263, 995, 2543, 364, 850, 365, 1789
+    Coordinates / radius..: (40.850490 N, 73.929130 W) / 0.23 km
+    Time frame............: 2011/10/12 to 2011/10/15
+    Number of cases.......: 43
+    Expected cases........: 125.44
+    Observed / expected...: 0.34
+    Test statistic........: 36.405591
+
+122.Location IDs included.: 1692, 1691, 1119, 2757
+    Coordinates / radius..: (40.774150 N, 73.984880 W) / 0.16 km
+    Time frame............: 2011/10/8 to 2011/10/9
+    Number of cases.......: 942
+    Expected cases........: 1223.19
+    Observed / expected...: 0.77
+    Test statistic........: 35.130809
+
+123.Location IDs included.: 3095, 3096, 2809, 2378, 309, 2857, 1550, 2379, 3579, 2377, 3097,
+                            308, 2929, 3084, 3094, 248, 2380, 2931, 2375, 1613, 2891, 3098,
+                            3093, 573, 1592, 2381, 1723, 2892, 2374, 3576
+    Coordinates / radius..: (40.795940 N, 73.972720 W) / 0.29 km
+    Time frame............: 2011/10/20 to 2011/10/21
+    Number of cases.......: 8235
+    Expected cases........: 9014.59
+    Observed / expected...: 0.91
+    Test statistic........: 34.741337
+
+124.Location IDs included.: 1964, 1966, 1068, 1968, 3619, 3736, 1961, 2452, 2587, 51, 1860,
+                            2454, 2588, 2450, 1969, 2763, 1322, 2739, 3618, 2456, 2448
+    Coordinates / radius..: (40.845360 N, 73.940510 W) / 0.26 km
+    Time frame............: 2011/10/4 to 2011/10/5
+    Number of cases.......: 186
+    Expected cases........: 321.97
+    Observed / expected...: 0.58
+    Test statistic........: 33.908324
+
+125.Location IDs included.: 104, 102, 105, 1422, 3369, 1421, 97
+    Coordinates / radius..: (40.778160 N, 73.974530 W) / 0.25 km
+    Time frame............: 2011/10/29 to 2011/10/29
+    Number of cases.......: 1057
+    Expected cases........: 1344.62
+    Observed / expected...: 0.79
+    Test statistic........: 33.226806
+
+126.Location IDs included.: 2471, 144, 3528, 1201, 145, 2755, 143, 3632, 1893, 3244, 1872, 1874
+    Coordinates / radius..: (40.794690 N, 73.936360 W) / 0.28 km
+    Time frame............: 2011/10/11 to 2011/10/13
+    Number of cases.......: 763
+    Expected cases........: 1008.10
+    Observed / expected...: 0.76
+    Test statistic........: 32.557751
+
+127.Location IDs included.: 213, 214, 3435, 215, 211, 1045, 210
+    Coordinates / radius..: (40.759790 N, 73.987920 W) / 0.24 km
+    Time frame............: 2011/10/9 to 2011/10/9
+    Number of cases.......: 2882
+    Expected cases........: 3333.11
+    Observed / expected...: 0.86
+    Test statistic........: 32.010367
+
+128.Location IDs included.: 1154, 3261, 492, 1992, 429, 1413, 493, 1842, 1414, 1395, 1285
+    Coordinates / radius..: (40.756380 N, 73.964320 W) / 0.24 km
+    Time frame............: 2011/10/8 to 2011/10/9
+    Number of cases.......: 5714
+    Expected cases........: 6336.68
+    Observed / expected...: 0.90
+    Test statistic........: 31.658924
+
+129.Location IDs included.: 3053
+    Coordinates / radius..: (40.805690 N, 73.956300 W) / 0 km
+    Time frame............: 2011/10/24 to 2011/10/30
+    Number of cases.......: 110
+    Expected cases........: 215.63
+    Observed / expected...: 0.51
+    Test statistic........: 31.590437
+
+130.Location IDs included.: 3077, 842, 3078
+    Coordinates / radius..: (40.785650 N, 73.980220 W) / 0.081 km
+    Time frame............: 2011/10/22 to 2011/10/23
+    Number of cases.......: 795
+    Expected cases........: 1037.93
+    Observed / expected...: 0.77
+    Test statistic........: 30.952196
+
+131.Location IDs included.: 2173, 2172, 3813, 2208, 2174, 1183
+    Coordinates / radius..: (40.775240 N, 73.947620 W) / 0.22 km
+    Time frame............: 2011/10/4 to 2011/10/6
+    Number of cases.......: 4220
+    Expected cases........: 4744.95
+    Observed / expected...: 0.89
+    Test statistic........: 30.179824
+
+132.Location IDs included.: 3149, 461, 1357, 31
+    Coordinates / radius..: (40.794320 N, 73.954790 W) / 0.29 km
+    Time frame............: 2011/10/21 to 2011/10/24
+    Number of cases.......: 482
+    Expected cases........: 669.22
+    Observed / expected...: 0.72
+    Test statistic........: 29.042362
+
+133.Location IDs included.: 1441, 3740, 2321, 1106, 2762, 1500, 2295, 1799
+    Coordinates / radius..: (40.720160 N, 73.974970 W) / 0.17 km
+    Time frame............: 2011/10/29 to 2011/10/31
+    Number of cases.......: 351
+    Expected cases........: 511.77
+    Observed / expected...: 0.69
+    Test statistic........: 28.413204
+
+134.Location IDs included.: 2427, 3401, 2428, 2426, 3402, 3400, 1595, 3830, 2424, 164, 2430,
+                            3403, 1596, 2674, 2423, 2431, 3398, 3404, 1597, 1637, 1760, 1761,
+                            3829
+    Coordinates / radius..: (40.829650 N, 73.948280 W) / 0.30 km
+    Time frame............: 2011/10/4 to 2011/10/7
+    Number of cases.......: 1374
+    Expected cases........: 1666.23
+    Observed / expected...: 0.82
+    Test statistic........: 27.274192
+
+135.Location IDs included.: 970, 3699, 2188, 969, 3466, 3256, 3027, 2187, 1885, 2394, 3776,
+                            1883, 928, 1881, 3698, 3700, 2722, 1159, 920, 1880, 3777, 3026,
+                            1152
+    Coordinates / radius..: (40.803020 N, 73.936310 W) / 0.29 km
+    Time frame............: 2011/10/11 to 2011/10/12
+    Number of cases.......: 532
+    Expected cases........: 717.43
+    Observed / expected...: 0.74
+    Test statistic........: 26.346523
+
+136.Location IDs included.: 1295, 2702, 1293, 262, 263, 261, 3826, 3810, 1551, 3824, 3812,
+                            3808, 3503, 3504, 264, 1297, 3849, 3188, 1292, 1167, 265, 1978,
+                            260, 2134
+    Coordinates / radius..: (40.824550 N, 73.941950 W) / 0.30 km
+    Time frame............: 2011/10/19 to 2011/10/20
+    Number of cases.......: 242
+    Expected cases........: 371.76
+    Observed / expected...: 0.65
+    Test statistic........: 25.866011
+
+137.Location IDs included.: 3461
+    Coordinates / radius..: (40.867240 N, 73.929350 W) / 0 km
+    Time frame............: 2011/10/24 to 2011/10/30
+    Number of cases.......: 6
+    Expected cases........: 43.59
+    Observed / expected...: 0.14
+    Test statistic........: 25.691154
+
+138.Location IDs included.: 3113, 536, 2709, 69, 535, 537, 534, 497, 1239, 2449
+    Coordinates / radius..: (40.809070 N, 73.944530 W) / 0.28 km
+    Time frame............: 2011/10/11 to 2011/10/13
+    Number of cases.......: 520
+    Expected cases........: 699.77
+    Observed / expected...: 0.74
+    Test statistic........: 25.370084
+
+139.Location IDs included.: 1607, 488, 418, 1142, 1001
+    Coordinates / radius..: (40.752900 N, 73.963980 W) / 0.22 km
+    Time frame............: 2011/10/15 to 2011/10/16
+    Number of cases.......: 1750
+    Expected cases........: 2062.00
+    Observed / expected...: 0.85
+    Test statistic........: 24.896305
+
+140.Location IDs included.: 1574, 3788, 1575, 817, 856, 1695, 1529, 3082, 3080
+    Coordinates / radius..: (40.789940 N, 73.980350 W) / 0.26 km
+    Time frame............: 2011/10/14 to 2011/10/16
+    Number of cases.......: 2042
+    Expected cases........: 2375.84
+    Observed / expected...: 0.86
+    Test statistic........: 24.639952
+
+141.Location IDs included.: 782, 783, 906, 1331, 128
+    Coordinates / radius..: (40.811690 N, 73.934880 W) / 0.15 km
+    Time frame............: 2011/10/17 to 2011/10/20
+    Number of cases.......: 71
+    Expected cases........: 146.11
+    Observed / expected...: 0.49
+    Test statistic........: 23.872958
+
+142.Location IDs included.: 1084, 2816, 2131, 3130, 3424, 2132, 2128, 1750, 779, 780, 1400,
+                            944, 946, 3129, 3564, 943, 1402
+    Coordinates / radius..: (40.865580 N, 73.918120 W) / 0.29 km
+    Time frame............: 2011/10/18 to 2011/10/21
+    Number of cases.......: 20
+    Expected cases........: 68.01
+    Observed / expected...: 0.29
+    Test statistic........: 23.531181
+
+143.Location IDs included.: 2719, 2527, 2721, 1224, 2526, 2665, 3359
+    Coordinates / radius..: (40.870220 N, 73.914690 W) / 0.12 km
+    Time frame............: 2011/10/17 to 2011/10/21
+    Number of cases.......: 38
+    Expected cases........: 95.46
+    Observed / expected...: 0.40
+    Test statistic........: 22.459138
+
+144.Location IDs included.: 1492, 1468, 981
+    Coordinates / radius..: (40.776010 N, 73.987240 W) / 0.11 km
+    Time frame............: 2011/10/1 to 2011/10/2
+    Number of cases.......: 635
+    Expected cases........: 815.42
+    Observed / expected...: 0.78
+    Test statistic........: 21.621870
+
+145.Location IDs included.: 476, 892, 419, 3844, 475, 478, 2581, 3695, 1196, 1974, 1871, 3694,
+                            3843, 3845, 3762
+    Coordinates / radius..: (40.791900 N, 73.941500 W) / 0.28 km
+    Time frame............: 2011/10/24 to 2011/10/27
+    Number of cases.......: 1952
+    Expected cases........: 2255.32
+    Observed / expected...: 0.87
+    Test statistic........: 21.380483
+
+146.Location IDs included.: 2195, 2463, 2311, 3781, 2080, 3577, 1418, 3057, 2467, 2461, 3578,
+                            3575, 1976, 2192, 2319, 1126, 3536, 3537, 2469, 2460, 3241, 854,
+                            3574, 2458, 3538, 3535, 2199
+    Coordinates / radius..: (40.849540 N, 73.936390 W) / 0.28 km
+    Time frame............: 2011/10/17 to 2011/10/20
+    Number of cases.......: 682
+    Expected cases........: 866.17
+    Observed / expected...: 0.79
+    Test statistic........: 21.137111
+
+147.Location IDs included.: 2412, 3384, 3558, 3569, 1048, 2409, 2413, 1757
+    Coordinates / radius..: (40.817590 N, 73.957070 W) / 0.16 km
+    Time frame............: 2011/10/29 to 2011/10/30
+    Number of cases.......: 219
+    Expected cases........: 329.38
+    Observed / expected...: 0.66
+    Test statistic........: 20.996393
+
+148.Location IDs included.: 978, 1149, 2682, 2776, 1851
+    Coordinates / radius..: (40.769470 N, 73.957870 W) / 0.17 km
+    Time frame............: 2011/10/4 to 2011/10/7
+    Number of cases.......: 5582
+    Expected cases........: 6071.19
+    Observed / expected...: 0.92
+    Test statistic........: 20.265997
+
+149.Location IDs included.: 1619, 2529, 2944, 2530, 147, 1618, 3134, 124, 646, 1942, 332, 3610,
+                            320, 2483, 2534, 3455, 1612, 2983
+    Coordinates / radius..: (40.862350 N, 73.922450 W) / 0.21 km
+    Time frame............: 2011/10/11 to 2011/10/13
+    Number of cases.......: 32
+    Expected cases........: 82.03
+    Observed / expected...: 0.39
+    Test statistic........: 19.907077
+
+150.Location IDs included.: 3613, 3614, 3429, 1936, 2232, 2004, 2912, 2058, 33
+    Coordinates / radius..: (40.785030 N, 73.941020 W) / 0.30 km
+    Time frame............: 2011/10/24 to 2011/10/25
+    Number of cases.......: 326
+    Expected cases........: 453.33
+    Observed / expected...: 0.72
+    Test statistic........: 19.839692
+
+151.Location IDs included.: 631, 3119, 2865, 3550, 3552, 1795, 3120, 3224, 2886, 1738, 633,
+                            3121, 1646
+    Coordinates / radius..: (40.799450 N, 73.951520 W) / 0.29 km
+    Time frame............: 2011/10/24 to 2011/10/27
+    Number of cases.......: 668
+    Expected cases........: 842.10
+    Observed / expected...: 0.79
+    Test statistic........: 19.384133
+
+152.Location IDs included.: 3628, 2252, 1123, 1464, 1638, 1336, 3024, 78, 1372, 3771, 3023,
+                            2694, 140, 330, 1122, 2693, 80, 141, 918, 2044, 1364, 138, 2045,
+                            2043, 2146
+    Coordinates / radius..: (40.799920 N, 73.942600 W) / 0.30 km
+    Time frame............: 2011/10/18 to 2011/10/20
+    Number of cases.......: 868
+    Expected cases........: 1062.83
+    Observed / expected...: 0.82
+    Test statistic........: 19.061362
+
+153.Location IDs included.: 2099, 932, 1949, 2098, 3546, 3548, 152, 632, 1896, 1948, 3545, 178,
+                            2097, 2100, 844, 3586, 784, 3606, 2489, 2492, 3
+    Coordinates / radius..: (40.856600 N, 73.929720 W) / 0.26 km
+    Time frame............: 2011/10/25 to 2011/10/26
+    Number of cases.......: 61
+    Expected cases........: 122.24
+    Observed / expected...: 0.50
+    Test statistic........: 18.839923
+
+154.Location IDs included.: 591, 1999, 55, 544, 1929, 2765, 1484
+    Coordinates / radius..: (40.733140 N, 74.010160 W) / 0.13 km
+    Time frame............: 2011/10/24 to 2011/10/28
+    Number of cases.......: 693
+    Expected cases........: 865.82
+    Observed / expected...: 0.80
+    Test statistic........: 18.525763
+
+155.Location IDs included.: 929, 2904, 1934, 1635, 116, 2429, 117, 3043, 1930, 1579, 118
+    Coordinates / radius..: (40.794780 N, 73.964300 W) / 0.28 km
+    Time frame............: 2011/10/13 to 2011/10/13
+    Number of cases.......: 882
+    Expected cases........: 1071.77
+    Observed / expected...: 0.82
+    Test statistic........: 17.891231
+
+156.Location IDs included.: 984, 1751
+    Coordinates / radius..: (40.818900 N, 73.952210 W) / 0.084 km
+    Time frame............: 2011/10/7 to 2011/10/10
+    Number of cases.......: 76
+    Expected cases........: 138.94
+    Observed / expected...: 0.55
+    Test statistic........: 17.089855
+
+157.Location IDs included.: 3708, 257, 256, 3709, 1162, 1163, 258, 3139, 879, 293, 3500, 3498,
+                            1165, 1547, 255, 259, 3497, 15, 1161, 3706, 1246
+    Coordinates / radius..: (40.819670 N, 73.944230 W) / 0.28 km
+    Time frame............: 2011/10/17 to 2011/10/21
+    Number of cases.......: 445
+    Expected cases........: 577.28
+    Observed / expected...: 0.77
+    Test statistic........: 16.468728
+
+158.Location IDs included.: 3629, 2083, 3631, 3848, 1628, 610, 3607, 922, 1960, 1769, 1727,
+                            921, 1770, 608, 686, 919, 1771, 3869
+    Coordinates / radius..: (40.708740 N, 73.998190 W) / 0.25 km
+    Time frame............: 2011/10/22 to 2011/10/22
+    Number of cases.......: 101
+    Expected cases........: 169.80
+    Observed / expected...: 0.59
+    Test statistic........: 16.330409
+
+159.Location IDs included.: 3493, 3825, 1160, 3494, 252, 3773, 253, 3255, 3495, 2608, 254
+    Coordinates / radius..: (40.816370 N, 73.948350 W) / 0.21 km
+    Time frame............: 2011/10/12 to 2011/10/13
+    Number of cases.......: 77
+    Expected cases........: 138.51
+    Observed / expected...: 0.56
+    Test statistic........: 16.298550
+
+160.Location IDs included.: 3524, 986, 3415, 3323, 2443, 12, 3321, 3414, 1594, 2442, 3525, 987,
+                            3416, 2444
+    Coordinates / radius..: (40.839560 N, 73.939870 W) / 0.18 km
+    Time frame............: 2011/10/29 to 2011/10/30
+    Number of cases.......: 413
+    Expected cases........: 539.24
+    Observed / expected...: 0.77
+    Test statistic........: 16.088689
+
+161.Location IDs included.: 1504, 3061, 677, 3062, 3001, 3063, 2999, 3611, 901, 1690, 1689
+    Coordinates / radius..: (40.772860 N, 73.989540 W) / 0.29 km
+    Time frame............: 2011/10/8 to 2011/10/9
+    Number of cases.......: 3079
+    Expected cases........: 3398.78
+    Observed / expected...: 0.91
+    Test statistic........: 15.541564
+
+162.Location IDs included.: 887, 886, 983, 982, 761, 1578, 760, 1385, 3066
+    Coordinates / radius..: (40.779520 N, 73.987970 W) / 0.24 km
+    Time frame............: 2011/10/13 to 2011/10/15
+    Number of cases.......: 2501
+    Expected cases........: 2778.66
+    Observed / expected...: 0.90
+    Test statistic........: 14.361136
+
+163.Location IDs included.: 868, 865, 3382, 1503, 1891, 1511
+    Coordinates / radius..: (40.814190 N, 73.960680 W) / 0.19 km
+    Time frame............: 2011/10/24 to 2011/10/26
+    Number of cases.......: 741
+    Expected cases........: 896.33
+    Observed / expected...: 0.83
+    Test statistic........: 14.311761
+
+164.Location IDs included.: 2091, 2093, 1046, 2089, 1186, 818, 230, 708, 2088, 1925, 23, 1182,
+                            2535, 3259, 2528, 3260
+    Coordinates / radius..: (40.712210 N, 73.980710 W) / 0.26 km
+    Time frame............: 2011/10/13 to 2011/10/14
+    Number of cases.......: 375
+    Expected cases........: 487.14
+    Observed / expected...: 0.77
+    Test statistic........: 14.030272
+
+165.Location IDs included.: 1362, 739, 951, 2113
+    Coordinates / radius..: (40.754510 N, 74.006860 W) / 0.083 km
+    Time frame............: 2011/10/26 to 2011/10/31
+    Number of cases.......: 92
+    Expected cases........: 150.06
+    Observed / expected...: 0.61
+    Test statistic........: 13.048038
+
+166.Location IDs included.: 1777, 1778
+    Coordinates / radius..: (40.838480 N, 73.937910 W) / 0.026 km
+    Time frame............: 2011/10/12 to 2011/10/17
+    Number of cases.......: 4
+    Expected cases........: 23.75
+    Observed / expected...: 0.17
+    Test statistic........: 12.623362
+
+167.Location IDs included.: 2138, 2641, 1178, 1172, 1213, 3511, 1566, 2137, 1562, 806, 2136,
+                            1300, 3508, 1671, 3512, 1763, 83, 808
+    Coordinates / radius..: (40.830210 N, 73.940270 W) / 0.28 km
+    Time frame............: 2011/10/25 to 2011/10/25
+    Number of cases.......: 31
+    Expected cases........: 67.71
+    Observed / expected...: 0.46
+    Test statistic........: 12.491994
+
+168.Location IDs included.: 2514, 2515, 2531, 2513, 1301, 777, 1471, 3458, 3459, 2533, 2512,
+                            1498, 644, 3460, 2126, 2518, 2125
+    Coordinates / radius..: (40.866020 N, 73.925870 W) / 0.27 km
+    Time frame............: 2011/10/24 to 2011/10/28
+    Number of cases.......: 295
+    Expected cases........: 388.06
+    Observed / expected...: 0.76
+    Test statistic........: 12.176506
+
+169.Location IDs included.: 1836, 2120, 1838, 2119
+    Coordinates / radius..: (40.862320 N, 73.929380 W) / 0.056 km
+    Time frame............: 2011/10/5 to 2011/10/7
+    Number of cases.......: 0
+    Expected cases........: 11.71
+    Observed / expected...: 0
+    Test statistic........: 11.708111
+
+170.Location IDs included.: 125, 1742, 1008, 134
+    Coordinates / radius..: (40.810620 N, 73.958270 W) / 0.16 km
+    Time frame............: 2011/10/3 to 2011/10/6
+    Number of cases.......: 723
+    Expected cases........: 860.98
+    Observed / expected...: 0.84
+    Test statistic........: 11.700331
+
+171.Location IDs included.: 3426, 1378, 3428, 1376, 876, 1922, 3807, 3726, 1257, 874
+    Coordinates / radius..: (40.820430 N, 73.936240 W) / 0.29 km
+    Time frame............: 2011/10/20 to 2011/10/21
+    Number of cases.......: 49
+    Expected cases........: 90.18
+    Observed / expected...: 0.54
+    Test statistic........: 11.288967
+
+Note: The number of Monte Carlo replications was set too low, and a meaningful hypothesis test
+cannot be done. Consequently, no p-values are reported.
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Case File        : /home/ferdinand/Documents/NYU/satscan/xp_roads/Casgraph1110_d.cas
+  Time Precision   : Day
+  Start Time       : 2011/10/1
+  End Time         : 2011/10/31
+  Coordinates File : /home/ferdinand/Documents/NYU/satscan/xp_roads/Coordgraph.geo
+  Coordinates      : Latitude/Longitude
+
+Analysis
+--------
+  Type of Analysis        : Retrospective Space-Time
+  Probability Model       : Space-Time Permutation
+  Scan for Areas with     : Low Rates
+  Time Aggregation Units  : Day
+  Time Aggregation Length : 1
+
+Output
+------
+  Main Results File       : /home/ferdinand/Documents/NYU/satscan/xp_roads/resg1110_d_w1-3d_9r
+  Cluster File            : /home/ferdinand/Documents/NYU/satscan/xp_roads/resg1110_d_w1-3d_9r.col.txt
+  Google Earth File       : /home/ferdinand/Documents/NYU/satscan/xp_roads/resg1110_d_w1-3d_9r.kml
+  Stratified Cluster File : /home/ferdinand/Documents/NYU/satscan/xp_roads/resg1110_d_w1-3d_9r.sci.txt
+  Location File           : /home/ferdinand/Documents/NYU/satscan/xp_roads/resg1110_d_w1-3d_9r.gis.txt
+  Simulated LLRs File     : /home/ferdinand/Documents/NYU/satscan/xp_roads/resg1110_d_w1-3d_9r.llr.txt
+
+Data Checking
+-------------
+  Temporal Data Check     : Check to ensure that all cases and controls are within the specified temporal study period.
+  Geographical Data Check : Check to ensure that all observations (cases, controls and populations) are within the specified geographical area.
+
+Spatial Neighbors
+-----------------
+  Use Non-Euclidian Neighbors file : No
+  Use Meta Locations File          : No
+  Multiple Coordinates Type        : Allow only one set of coordinates per location ID.
+
+Spatial Window
+--------------
+  Maximum Spatial Cluster Size : 50 percent of population at risk
+  Maximum Spatial Cluster Size : 0.3 km
+  Window Shape                 : Circular
+
+Temporal Window
+---------------
+  Minimum Temporal Cluster Size : 1 Day
+  Maximum Temporal Cluster Size : 7 Days
+
+Space And Time Adjustments
+--------------------------
+  Adjust for Weekly Trends, Nonparametric : No
+
+Inference
+---------
+  P-Value Reporting                  : Default Combination
+  Number of Replications             : 9
+  Adjusting for More Likely Clusters : No
+
+Spatial Output
+--------------
+  Automatically Launch Google Earth         : No
+  Compress KML File into KMZ File           : No
+  Include All Location IDs in the Clusters  : Yes
+  Cluster Location Threshold - Separate KML : 1000
+  Report Hierarchical Clusters              : Yes
+  Criteria for Reporting Secondary Clusters : No Geographical Overlap
+  Restrict Reporting to Smaller Clusters    : No
+
+Temporal Graphs
+---------------
+  Produce Temporal Graphs : No
+
+Other Output
+------------
+  Report Critical Values     : No
+  Report Monte Carlo Rank    : No
+  Print ASCII Column Headers : No
+
+Run Options
+-----------
+  Processer Usage   : All Available Proccessors
+  Suppress Warnings : No
+  Logging Analysis  : Yes
+_______________________________________________________________________________________________
+
+Program completed  : Tue Jul 19 15:51:14 2016
+Total Running Time : 42 seconds
+Processor Usage    : 4 processors

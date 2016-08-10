@@ -1,0 +1,256 @@
+                                 _____________________________
+
+                                        SaTScan v9.4.2
+                                 _____________________________
+
+
+Program run on: Tue Jun 14 14:06:42 2016
+
+Retrospective Space-Time analysis
+scanning for clusters with low rates
+using the Space-Time Permutation model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Study period.......................: 2011/10/1 to 2011/10/31
+Number of locations................: 3874
+Total number of cases..............: 19534084
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1158, 1164, 1166, 1168,
+                          1173, 1174, 1209, 1274, 1314, 1333, 1391, 1392, 1393, 1394, 1486,
+                          1515, 1559, 1560, 1679, 1685, 1780, 1959, 1973, 1981, 2038, 2039,
+                          2042, 2055, 2081, 2082, 2092, 2096, 2536, 2537, 2538, 2604, 2605,
+                          2606, 2607, 2609, 2611, 2612, 2613, 2616, 2744, 2784, 2864, 2867,
+                          2869, 2870, 2872, 2874, 2875, 2876, 2877, 292, 2939, 2943, 2947,
+                          2950, 2954, 2957, 2958, 2959, 3074, 3100, 3187, 3205, 3254, 3296,
+                          3347, 3352, 3353, 3354, 3355, 3375, 3434, 3439, 3662, 3664, 3669,
+                          3670, 3673, 3744, 3758, 3760, 3763, 3764, 427, 466, 487, 489, 490,
+                          539, 637, 648, 671, 736, 769, 814, 998
+  Coordinates / radius..: (40.755970 N, 73.976960 W) / 0.67 km
+  Time frame............: 2011/10/29 to 2011/10/30
+  Number of cases.......: 65723
+  Expected cases........: 99779.66
+  Observed / expected...: 0.66
+  Test statistic........: 6646.117464
+
+2.Location IDs included.: 101, 1022, 1023, 1025, 1027, 1049, 1063, 1064, 1065, 1120, 1153,
+                          1265, 1377, 1382, 1387, 1389, 1399, 14, 1431, 1433, 1436, 1443, 1447,
+                          1482, 1514, 1542, 158, 159, 161, 1624, 1668, 1704, 1707, 1709, 1710,
+                          1711, 175, 176, 1805, 1807, 1808, 1809, 1810, 1811, 1812, 1813, 1814,
+                          1815, 1816, 1905, 1906, 1953, 2006, 2007, 2019, 2020, 2021, 2022,
+                          2023, 2024, 2031, 2037, 2077, 219, 2207, 221, 2288, 2289, 2291, 2292,
+                          2294, 236, 2475, 2493, 2494, 2496, 2498, 2499, 2500, 2636, 2637,
+                          2638, 2639, 2640, 2649, 2652, 2683, 2684, 2686, 2690, 2692, 2695,
+                          2704, 2705, 2706, 2707, 2740, 2742, 2743, 2764, 2803, 2807, 2808,
+                          2881, 289, 2960, 3042, 3044, 3045, 3047, 3049, 3052, 306, 3085, 3111,
+                          3112, 3127, 3128, 3131, 324, 326, 3265, 3267, 3269, 3270, 3272, 3273,
+                          3274, 3275, 3276, 3277, 3280, 3281, 3282, 3283, 3284, 3286, 3287,
+                          3288, 3289, 3290, 3306, 3335, 3336, 3337, 3417, 3419, 3420, 3422,
+                          3423, 3425, 3499, 3509, 3510, 3593, 3627, 3635, 3638, 3721, 3741,
+                          3742, 3743, 3745, 3746, 3779, 3780, 3783, 3784, 3796, 3797, 3798,
+                          3799, 3801, 3803, 3805, 3806, 384, 407, 417, 426, 452, 5, 511, 512,
+                          514, 518, 519, 52, 525, 54, 540, 543, 557, 558, 559, 560, 561, 57,
+                          585, 586, 589, 590, 592, 594, 595, 596, 599, 60, 600, 601, 602, 603,
+                          604, 605, 62, 634, 636, 64, 640, 641, 66, 665, 666, 667, 668, 67,
+                          670, 672, 712, 714, 721, 722, 723, 724, 727, 75, 76, 764, 77, 788,
+                          789, 796, 801, 857, 859, 923, 939, 942, 948, 949, 950, 953, 960, 964,
+                          976
+  Coordinates / radius..: (40.723640 N, 73.985280 W) / 0.90 km
+  Time frame............: 2011/10/3 to 2011/10/6
+  Number of cases.......: 158900
+  Expected cases........: 208942.35
+  Observed / expected...: 0.76
+  Test statistic........: 6602.920039
+
+3.Location IDs included.: 102, 104, 105, 1073, 1075, 1080, 1081, 1095, 1145, 1146, 1147, 1148,
+                          1179, 1190, 1193, 1199, 1203, 1204, 1205, 1207, 1211, 1212, 1214,
+                          1225, 1229, 1302, 133, 136, 1379, 1421, 1422, 1453, 1554, 1666, 1786,
+                          1792, 1794, 1985, 2050, 2402, 2405, 2406, 2501, 2621, 2624, 2625,
+                          2627, 2630, 2633, 2635, 2653, 2654, 2655, 2657, 2658, 2688, 2745,
+                          2746, 2747, 2749, 2772, 2773, 2774, 2775, 2777, 2779, 2780, 2781,
+                          2814, 2981, 2985, 2986, 2988, 299, 2993, 3032, 3033, 3034, 3064,
+                          3189, 3190, 3191, 3192, 3197, 3198, 3199, 3200, 3201, 3211, 3235,
+                          3361, 3369, 3452, 3476, 3515, 3519, 3530, 3533, 357, 3572, 3609,
+                          3679, 3681, 3684, 3720, 3723, 3868, 3872, 421, 422, 423, 424, 425,
+                          430, 431, 432, 450, 545, 546, 547, 548, 614, 654, 688, 689, 690, 691,
+                          701, 729, 742, 88, 882, 888, 89, 91, 924, 925, 926, 93, 95, 96, 97,
+                          974, 975, 977
+  Coordinates / radius..: (40.772460 N, 73.968930 W) / 0.94 km
+  Time frame............: 2011/10/29 to 2011/10/30
+  Number of cases.......: 57175
+  Expected cases........: 81342.18
+  Observed / expected...: 0.70
+  Test statistic........: 4025.254936
+
+4.Location IDs included.: 1018, 1037, 1066, 1072, 1074, 1077, 1079, 1220, 1221, 1223, 1370,
+                          1408, 1410, 1420, 1426, 1430, 1456, 1481, 1483, 1484, 1485, 1488,
+                          1506, 1544, 1546, 1552, 1653, 1675, 184, 186, 188, 189, 1897, 190,
+                          191, 192, 1929, 193, 194, 1999, 2030, 2034, 2059, 2064, 2069, 2071,
+                          2074, 2078, 2084, 2142, 2143, 223, 2233, 2237, 2272, 2312, 2313,
+                          2314, 2316, 2318, 2410, 2457, 2497, 2567, 2568, 2569, 2570, 2571,
+                          2572, 2573, 2574, 2576, 2577, 2578, 2644, 2645, 2646, 2647, 2661,
+                          2662, 2738, 2748, 2765, 2810, 2812, 2813, 2817, 2818, 2819, 2820,
+                          2822, 2823, 2825, 2826, 2827, 2919, 3005, 3007, 3012, 3015, 3018,
+                          3020, 3022, 3025, 3031, 305, 3065, 3106, 3108, 3109, 3135, 3136,
+                          3160, 3161, 3162, 3163, 3164, 3166, 3167, 3168, 3169, 3170, 3171,
+                          3177, 3217, 3220, 3221, 3222, 3223, 3226, 3227, 3229, 3232, 3308,
+                          3311, 3312, 3313, 3315, 3316, 333, 334, 335, 336, 337, 338, 340,
+                          3433, 3437, 3440, 3448, 3501, 353, 3553, 356, 3582, 3583, 3584, 3585,
+                          3587, 3588, 3589, 3590, 3592, 3712, 3717, 3718, 3754, 3755, 3756,
+                          3802, 382, 3821, 3847, 3853, 389, 395, 396, 397, 398, 399, 401, 402,
+                          403, 404, 405, 406, 408, 410, 413, 416, 502, 513, 531, 533, 542, 544,
+                          55, 563, 591, 598, 647, 743, 766, 785, 787, 8, 875, 902, 991
+  Coordinates / radius..: (40.736950 N, 74.006490 W) / 0.91 km
+  Time frame............: 2011/10/24 to 2011/10/27
+  Number of cases.......: 182601
+  Expected cases........: 209982.27
+  Observed / expected...: 0.87
+  Test statistic........: 1887.710631
+
+5.Location IDs included.: 1232, 1236, 1243, 1247, 1249, 1250, 1252, 1254, 1256, 1282, 1325,
+                          1326, 1536, 1572, 1606, 162, 163, 1686, 1902, 1904, 1944, 2198, 2201,
+                          2219, 2280, 2282, 2335, 2344, 2547, 2552, 2556, 2558, 2559, 2656,
+                          2663, 2667, 2670, 272, 2920, 2927, 3003, 3004, 3006, 3342, 3343,
+                          3457, 363, 3711, 3724, 3790, 3791, 3792, 3793, 409, 411, 438, 439,
+                          440, 441, 627, 731, 754, 755, 771, 820, 827
+  Coordinates / radius..: (40.784710 N, 73.958090 W) / 0.59 km
+  Time frame............: 2011/10/8 to 2011/10/9
+  Number of cases.......: 21656
+  Expected cases........: 31809.20
+  Observed / expected...: 0.68
+  Test statistic........: 1829.694002
+
+6.Location IDs included.: 1328, 1338, 2971, 2972, 2974, 2979, 394, 884
+  Coordinates / radius..: (40.757600 N, 74.000540 W) / 0.24 km
+  Time frame............: 2011/10/17 to 2011/10/18
+  Number of cases.......: 353
+  Expected cases........: 2115.55
+  Observed / expected...: 0.17
+  Test statistic........: 1130.545049
+
+7.Location IDs included.: 2622, 2623, 2685, 2761, 2905, 3206, 575, 576, 579, 94, 965
+  Coordinates / radius..: (40.713790 N, 74.013940 W) / 0.22 km
+  Time frame............: 2011/10/29 to 2011/10/30
+  Number of cases.......: 1791
+  Expected cases........: 4546.75
+  Observed / expected...: 0.39
+  Test statistic........: 1087.379427
+
+8.Location IDs included.: 1339, 1371, 1386, 168, 169, 1970
+  Coordinates / radius..: (40.766180 N, 73.997360 W) / 0.084 km
+  Time frame............: 2011/10/26 to 2011/10/28
+  Number of cases.......: 197
+  Expected cases........: 1537.98
+  Observed / expected...: 0.13
+  Test statistic........: 936.190718
+
+9.Location IDs included.: 1938, 1939, 2133, 2157, 2158, 2160, 2161, 2162, 3809
+  Coordinates / radius..: (40.764210 N, 73.952910 W) / 0.31 km
+  Time frame............: 2011/10/8 to 2011/10/9
+  Number of cases.......: 2563
+  Expected cases........: 5136.92
+  Observed / expected...: 0.50
+  Test statistic........: 792.099827
+
+10.Location IDs included.: 1055, 1437, 1440, 1475, 1477, 1493, 27, 28, 317, 319, 321, 368, 369,
+                           370, 381
+   Coordinates / radius..: (40.721400 N, 74.009180 W) / 0.16 km
+   Time frame............: 2011/10/8 to 2011/10/9
+   Number of cases.......: 1897
+   Expected cases........: 4126.14
+   Observed / expected...: 0.46
+   Test statistic........: 755.170165
+
+Note: As the number of Monte Carlo replications was set to zero, no hypothesis testing was done
+and no p-values are reported.
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Case File        : /home/ferdinand/Documents/NYU/satscan/xp_roads/Casgraph1110_d.cas
+  Time Precision   : Day
+  Start Time       : 2011/10/1
+  End Time         : 2011/10/31
+  Coordinates File : /home/ferdinand/Documents/NYU/satscan/xp_roads/Coordgraph.geo
+  Coordinates      : Latitude/Longitude
+
+Analysis
+--------
+  Type of Analysis        : Retrospective Space-Time
+  Probability Model       : Space-Time Permutation
+  Scan for Areas with     : Low Rates
+  Time Aggregation Units  : Day
+  Time Aggregation Length : 1
+
+Output
+------
+  Main Results File : /home/ferdinand/Documents/NYU/satscan/xp_roads/resg1110_d_1
+  Google Earth File : /home/ferdinand/Documents/NYU/satscan/xp_roads/resg1110_d_1.kml
+
+Data Checking
+-------------
+  Temporal Data Check     : Check to ensure that all cases and controls are within the specified temporal study period.
+  Geographical Data Check : Check to ensure that all observations (cases, controls and populations) are within the specified geographical area.
+
+Spatial Neighbors
+-----------------
+  Use Non-Euclidian Neighbors file : No
+  Use Meta Locations File          : No
+  Multiple Coordinates Type        : Allow only one set of coordinates per location ID.
+
+Spatial Window
+--------------
+  Maximum Spatial Cluster Size : 50 percent of population at risk
+  Maximum Spatial Cluster Size : 1 km
+  Window Shape                 : Circular
+
+Temporal Window
+---------------
+  Minimum Temporal Cluster Size : 1 Day
+  Maximum Temporal Cluster Size : 50 percent of study period
+
+Space And Time Adjustments
+--------------------------
+  Adjust for Weekly Trends, Nonparametric : No
+
+Inference
+---------
+  P-Value Reporting                  : Default Combination
+  Number of Replications             : 0
+  Adjusting for More Likely Clusters : No
+
+Spatial Output
+--------------
+  Automatically Launch Google Earth         : No
+  Compress KML File into KMZ File           : No
+  Include All Location IDs in the Clusters  : No
+  Cluster Location Threshold - Separate KML : 1000
+  Report Hierarchical Clusters              : Yes
+  Criteria for Reporting Secondary Clusters : No Geographical Overlap
+  Restrict Reporting to Smaller Clusters    : No
+
+Temporal Graphs
+---------------
+  Produce Temporal Graphs : No
+
+Other Output
+------------
+  Report Critical Values  : No
+  Report Monte Carlo Rank : No
+
+Run Options
+-----------
+  Processer Usage   : All Available Proccessors
+  Suppress Warnings : No
+  Logging Analysis  : Yes
+_______________________________________________________________________________________________
+
+Program completed  : Tue Jun 14 14:07:01 2016
+Total Running Time : 19 seconds
+Processor Usage    : 4 processors

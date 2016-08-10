@@ -1,0 +1,213 @@
+                                 _____________________________
+
+                                        SaTScan v9.4.2
+                                 _____________________________
+
+
+Program run on: Tue Jul 19 16:43:24 2016
+
+Retrospective Space-Time analysis
+scanning for clusters with low rates
+using the Space-Time Permutation model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Study period.......................: 0 to 743
+Number of locations................: 3874
+Total number of cases..............: 19534084
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: 2613, 2616, 487, 1174, 3744, 1988, 2612, 2081, 2055, 1333, 1486,
+                          3074, 3254, 3347, 1188, 1173, 2744, 3173, 1989, 427, 1392, 3464,
+                          3296, 1391, 2323, 3463, 1393, 3465
+  Coordinates / radius..: (40.760360 N, 73.973760 W) / 0.30 km
+  Time frame............: 691 to 704
+  Number of cases.......: 2595
+  Expected cases........: 7569.47
+  Observed / expected...: 0.34
+  Test statistic........: 2197.058043
+
+2.Location IDs included.: 2688, 431, 2746, 1199, 357, 2621, 3190, 3476, 1179, 1786, 430, 2745,
+                          2747, 432, 1190, 1169, 654, 3189, 3191, 966, 2620, 2624, 3720, 1185,
+                          1207, 1353, 1073, 1075, 3249
+  Coordinates / radius..: (40.765460 N, 73.970040 W) / 0.29 km
+  Time frame............: 691 to 703
+  Number of cases.......: 2343
+  Expected cases........: 7017.80
+  Observed / expected...: 0.33
+  Test statistic........: 2105.045093
+
+3.Location IDs included.: 1679, 2607, 3758, 769, 3760, 3439, 3434, 2606, 2609, 1158, 1973,
+                          3187, 2042, 2039, 1560, 1515, 814, 292, 1559, 637, 2605, 2038, 1168,
+                          1116, 1959, 671, 3352, 1117
+  Coordinates / radius..: (40.754720 N, 73.977870 W) / 0.30 km
+  Time frame............: 691 to 702
+  Number of cases.......: 3248
+  Expected cases........: 8320.35
+  Observed / expected...: 0.39
+  Test statistic........: 2017.728116
+
+4.Location IDs included.: 600, 601, 602, 599, 712, 289, 596, 3269, 942, 3267, 3270, 417, 426,
+                          2690, 62, 2686, 939, 60, 2639, 1447, 2638, 2692, 54, 595, 603, 64,
+                          1436, 3265, 3287, 2684, 2695, 3288, 3289, 3286, 66, 57, 604, 2007,
+                          1265, 594, 2637, 1433, 788, 2475, 2881
+  Coordinates / radius..: (40.720300 N, 73.989110 W) / 0.30 km
+  Time frame............: 606 to 618
+  Number of cases.......: 2067
+  Expected cases........: 6106.18
+  Observed / expected...: 0.34
+  Test statistic........: 1800.614458
+
+5.Location IDs included.: 422, 3868, 2402, 3572, 421, 2654, 1145, 423, 1214, 1205, 3519, 974,
+                          299, 3530, 133, 1203, 2653, 3211, 2655, 1146, 1794, 2627, 2772, 3533,
+                          1212, 1080, 2501, 1081, 2773
+  Coordinates / radius..: (40.771780 N, 73.965430 W) / 0.30 km
+  Time frame............: 690 to 702
+  Number of cases.......: 1339
+  Expected cases........: 4784.27
+  Observed / expected...: 0.28
+  Test statistic........: 1740.478089
+
+6.Location IDs included.: 2633, 546, 925, 1225, 1379, 2630, 2635, 1792, 3609, 3515, 545, 924,
+                          547, 926, 614, 1229, 2777, 2814, 2779, 450, 742, 1096, 1211, 882,
+                          3827, 1095, 888
+  Coordinates / radius..: (40.776310 N, 73.962150 W) / 0.30 km
+  Time frame............: 691 to 702
+  Number of cases.......: 1611
+  Expected cases........: 4971.27
+  Observed / expected...: 0.32
+  Test statistic........: 1545.250609
+
+7.Location IDs included.: 272, 771, 1904, 1250, 2547, 2558, 163, 1236, 2552, 1944, 1606, 754,
+                          755, 1686, 1232, 1238, 162, 2556, 2559, 1332, 439, 762, 3711, 1216,
+                          438, 3228, 440
+  Coordinates / radius..: (40.780850 N, 73.958810 W) / 0.30 km
+  Time frame............: 691 to 703
+  Number of cases.......: 1698
+  Expected cases........: 5052.92
+  Observed / expected...: 0.34
+  Test statistic........: 1503.511519
+
+8.Location IDs included.: 2207, 1811, 1810, 1812, 1809, 3499, 1710, 3112, 727, 1704, 1808,
+                          3741, 1709, 1711, 452, 724, 665, 1813, 525, 1807, 1120, 101, 634,
+                          2740, 2742, 3742, 2640, 514, 1399, 3721, 2037, 1953, 723
+  Coordinates / radius..: (40.725580 N, 73.989870 W) / 0.28 km
+  Time frame............: 270 to 281
+  Number of cases.......: 2787
+  Expected cases........: 6719.51
+  Observed / expected...: 0.41
+  Test statistic........: 1480.209656
+
+9.Location IDs included.: 2818, 2817, 2819, 2661, 2919, 2142, 3717, 3582, 3756, 1456, 2813,
+                          3590, 3755, 2820, 3583, 3592, 533, 3308, 3718, 3754, 2812, 787, 1139,
+                          875, 531, 2272, 3821, 3018, 3220, 2662, 3217, 3584, 3221, 3753, 502,
+                          1138, 3802
+  Coordinates / radius..: (40.732310 N, 74.000510 W) / 0.28 km
+  Time frame............: 726 to 743
+  Number of cases.......: 4073
+  Expected cases........: 8345.60
+  Observed / expected...: 0.49
+  Test statistic........: 1351.284182
+
+10.Location IDs included.: 3448, 2577, 785, 2570, 2578, 2312, 2313, 3065, 3108, 416, 2314,
+                           2576, 1675, 2034, 3109, 1544, 2571, 766, 2574, 3106, 2316, 340,
+                           1018, 1077, 413, 3501, 1074
+   Coordinates / radius..: (40.741620 N, 74.006970 W) / 0.29 km
+   Time frame............: 725 to 739
+   Number of cases.......: 4790
+   Expected cases........: 9176.64
+   Observed / expected...: 0.52
+   Test statistic........: 1273.008564
+
+Note: As the number of Monte Carlo replications was set to zero, no hypothesis testing was done
+and no p-values are reported.
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Case File        : /home/ferdinand/Documents/NYU/satscan/xp_roads/Casgraph1110_h.cas
+  Time Precision   : Generic
+  Start Time       : 0
+  End Time         : 743
+  Coordinates File : /home/ferdinand/Documents/NYU/satscan/xp_roads/Coordgraph.geo
+  Coordinates      : Latitude/Longitude
+
+Analysis
+--------
+  Type of Analysis        : Retrospective Space-Time
+  Probability Model       : Space-Time Permutation
+  Scan for Areas with     : Low Rates
+  Time Aggregation Units  : Generic
+  Time Aggregation Length : 1
+
+Output
+------
+  Main Results File : /home/ferdinand/Documents/NYU/satscan/xp_roads/resg1110_h_03
+  Google Earth File : /home/ferdinand/Documents/NYU/satscan/xp_roads/resg1110_h_03.kml
+
+Data Checking
+-------------
+  Temporal Data Check     : Check to ensure that all cases and controls are within the specified temporal study period.
+  Geographical Data Check : Check to ensure that all observations (cases, controls and populations) are within the specified geographical area.
+
+Spatial Neighbors
+-----------------
+  Use Non-Euclidian Neighbors file : No
+  Use Meta Locations File          : No
+  Multiple Coordinates Type        : Allow only one set of coordinates per location ID.
+
+Spatial Window
+--------------
+  Maximum Spatial Cluster Size : 50 percent of population at risk
+  Maximum Spatial Cluster Size : 0.3 km
+  Window Shape                 : Circular
+
+Temporal Window
+---------------
+  Minimum Temporal Cluster Size : 5 Generics
+  Maximum Temporal Cluster Size : 23 Generics
+
+Space And Time Adjustments
+--------------------------
+  Adjust for Weekly Trends, Nonparametric : No
+
+Inference
+---------
+  P-Value Reporting                  : Default Combination
+  Number of Replications             : 0
+  Adjusting for More Likely Clusters : No
+
+Spatial Output
+--------------
+  Automatically Launch Google Earth         : No
+  Compress KML File into KMZ File           : No
+  Include All Location IDs in the Clusters  : No
+  Cluster Location Threshold - Separate KML : 1000
+  Report Hierarchical Clusters              : Yes
+  Criteria for Reporting Secondary Clusters : No Geographical Overlap
+  Restrict Reporting to Smaller Clusters    : No
+
+Temporal Graphs
+---------------
+  Produce Temporal Graphs : No
+
+Other Output
+------------
+  Report Critical Values  : No
+  Report Monte Carlo Rank : No
+
+Run Options
+-----------
+  Processer Usage   : All Available Proccessors
+  Suppress Warnings : No
+  Logging Analysis  : Yes
+_______________________________________________________________________________________________
+
+Program completed  : Tue Jul 19 16:45:25 2016
+Total Running Time : 2 minutes 1 second
+Processor Usage    : 4 processors
