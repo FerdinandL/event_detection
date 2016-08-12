@@ -39,8 +39,8 @@ public class AnomalyDetector {
 	 * detector.
 	 */
 	public static void callMe(int i, int r, int c, double gini, int run) throws Exception {
-		Vector<Cluster> clusters = new Vector<Cluster>(100);
-		Vector<Anomaly> anomalies = new Vector<Anomaly>(100);
+		Vector<Cluster> clusters = new Vector<Cluster>(100); // TODO: WHY JUST 100?? ##
+		Vector<Anomaly> anomalies = new Vector<Anomaly>(100); // TODO: WHY JUST 100?? ##
 		//Vector<Anomaly> globalAnomalies = new Vector<Anomaly>();
 		TestStatistic stat = new TestStatistic();
 

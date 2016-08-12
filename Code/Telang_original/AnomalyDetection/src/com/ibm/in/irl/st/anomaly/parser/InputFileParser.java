@@ -49,7 +49,12 @@ public class InputFileParser {
 	 */
 	private double COL_BIAS = 0.0;
 
+	public void testy(){
+		System.out.println("This is a test !");
+	}
+	
 	public InputFileParser(String fileName, double rowBias, double colBias, double valueBias) throws Exception {
+		System.out.println("Initializing biases to 0 and reading input file")
 		this.fileName = fileName;
 		VALUE_BIAS = valueBias;
 		ROW_BIAS = rowBias;
@@ -60,6 +65,7 @@ public class InputFileParser {
 	private void initialize(String fileName) throws Exception {
 		//####// Reads the input file
 		reader = new BufferedReader(new InputStreamReader(new FileInputStream(fileName)));
+		System.out.println("inputFile has been read by initialize function")
 		initialized = true;
 	}
 
@@ -78,28 +84,33 @@ public class InputFileParser {
 	 * 
 	 */
 	public void fillGridData(GridData grid) throws Exception {
+		
+		System.out.println("Starting to fill grid");
+		
 		if (!initialized) {
 			initialize(fileName);
 		}
-		String line = null;
+		String line = reader.readLine(); // skip the header line
 		String[] tokens = null;
+		int interval = 0;
 		int row = 0;
 		int col = 0;
-		double temperature = 0.0;
+		double count = 0.0;
+		
+		System.out.println("Beginning reading of " + filename);
 		while ((line = reader.readLine()) != null) {
-			tokens = line.split("\\s");
-			//Each line contains the long, lat and annual temperature
-			if (tokens.length < 3) {
-				continue;
-			}
-			col = (int) ((Double.parseDouble(tokens[0]) + COL_BIAS) * 25 / 3);
-			row = (int) ((Double.parseDouble(tokens[1]) + ROW_BIAS) * 25 / 3);
-			for (int interval = 0; interval < grid.getIntervals(); interval++) {
-				temperature = Double.parseDouble(tokens[2 + interval]) + VALUE_BIAS;
-				grid.setValue(interval, row, col, temperature);
-			}
-
+			tokens = line.split(",");
+			//Each line contains the cell_id=RRRCCC, time_interval, datetime, count
+			interval = Integer.parseInt(tokens[1]);
+			row = Integer.parseInt(tokens[0].substring(0,3));
+			col = Integer.parseInt(tokens[0].substring(3,6));
+			count = Double.parseDouble(tokens[3]) + VALUE_BIAS;
+			
+			grid.setValue(interval, row, col, count);
+			System.out.println("Cell ("+interval+ ", "+row+", "+ col+ ")  -->  " + count);
 		}
+		
+		System.out.println("Grid filled !")
 	}
 
 	/*	*//**
