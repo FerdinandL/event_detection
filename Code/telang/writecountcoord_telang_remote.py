@@ -10,6 +10,7 @@ the outputted file is a txt file RRRCCC / time_interval / datetime / count
 
 """
 import sys
+import pandas as pd
 
 #gridRes = 200
 gridRes = sys.argv[1]
@@ -119,3 +120,17 @@ for d in range(1,ndays+1):
 ct_d_grid1110_h.close()
 
 print "Drop-offs count file written"
+
+
+#%%-------------- Write HARISH_GRID_HOUR pickups+drop-offs counts file---------------
+
+ct_p_grid1110_h= pd.read_csv(dirPath + "ct_p_grid1110_h_"+str(gridRes)+".csv",header = 0)
+ct_d_grid1110_h= pd.read_csv(dirPath + "ct_d_grid1110_h_"+str(gridRes)+".csv", header = 0)
+
+ct_pd_grid1110_h = ct_p_grid1110_h
+ct_pd_grid1110_h['cell_id'] = pd.Series(['{:06}'.format(val) for val in ct_p_grid1110_h['cell_id']], index = ct_pd_grid1110_h.index)
+ct_pd_grid1110_h['count'] = ct_p_grid1110_h['count'] + ct_d_grid1110_h['count']
+
+ct_pd_grid1110_h.to_csv(dirPath + "ct_pd_grid1110_h_"+str(gridRes)+".csv", sep=',',header=True, index=False)
+
+print "Pickups + Drop-offs count file written"

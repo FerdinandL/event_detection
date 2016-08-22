@@ -10,20 +10,29 @@ import pandas as pd
 import numpy as np
 
 gridRes = sys.argv[1]
-startDay = int(sys.argv[2])
-endDay = int(sys.argv[3])
-dirPath = sys.argv[4]
-outputPath = sys.argv[5]
+threshold = float(sys.argv[2])
+startDay = int(sys.argv[3])
+endDay = int(sys.argv[4]) # included
+dirInputPath = sys.argv[5]
+dirOutputPath = sys.argv[6]
+sml = sys.argv[7]
 
 #gridRes = 200
 #startDay = 25
 #endDay = 31
-#dirPath = '/home/ferdinand/Documents/NYU/Data/telang/'
-#outputPath = dirPath
+#Local
+#dirInputPath = '/home/ferdinand/Documents/NYU/Data/telang/'
+#dirOutputPath = dirPath
+#Remote
+#dirInputPath = dirOutputPath = '~/telang/'
+
+s = ""
+if (sml == 'small'):
+	s = "_s"
 
 #%% THRESHOLD ON MONTHLY COUNT VALUE
 
-counts_orig = pd.read_csv(dirPath + "ct_pd_grid1110_h_" + str(gridRes) + ".csv", sep = ",",index_col=False,dtype=str, header = 0)     
+counts_orig = pd.read_csv(dirInputPath + "ct_pd_grid1110_h_" + str(gridRes) + s + ".csv", sep = ",",index_col=False,dtype=str, header = 0)     
 counts= counts_orig
 
 print "Csv read"
@@ -35,7 +44,7 @@ counts1 = counts1['count'].aggregate(np.sum)
 
 counts2 = counts1
 counts1['count'] = counts1['count'] / np.mean(counts1['count'])
-counts2 = counts2[counts1['count'] > 0.03]
+counts2 = counts2[counts1['count'] > threshold]
 keep_cells = counts2['cell_id'].tolist()
 
 print "Counts aggregated"
@@ -54,6 +63,6 @@ counts_kept = counts_kept[(day >= startDay) & (day <= endDay)]
 counts_kept['time_interval'] = pd.to_numeric(counts['time_interval'])
 counts_kept['time_interval'] = counts_kept['time_interval'] - (startDay-1)*24
 
-counts_kept.to_csv(outputPath + "ct_pd_grid111025-31_h_"+str(gridRes)+"_t.csv", sep=',',header=True, index=False)
+counts_kept.to_csv(dirOutputPath + "ct_pd_grid1110" + '{:02}'.format(startDay) + '-' + '{:02}'.format(endDay) + "_h_"+str(gridRes)+s+"_t.csv", sep=',',header=True, index=False)
 
 print "Threshold & Date bounded file written"
