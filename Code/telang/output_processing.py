@@ -34,10 +34,10 @@ inputCoordFolder = sys.argv[7]
 #endDay = 31
 
 #Remote
-#inputFolder = '~/telang/xp_telang_' + str(gridRes) + '_t/'
-#inputCoordFolder = ~/Data/harish_grid_h
+#inputFolder = '~/telang/xp_telang_' + str(gridRes) + '/'
+#inputCoordFolder = ~/Data/harish_grid_h/
 
-outputFile = inputFolder + '/Anomaly_' + str(gini) + '.txt'
+outputFile = inputFolder + 'Anomaly_' + str(gini) + '.txt'
 outputFileSummary = inputFolder + 'Summary_' + str(gini) + '.txt'
 a_cellsFile = inputFolder + "AnomalyCells_" + str(gini) + ".txt"
 a_valsFile = inputFolder + "AnomalyData_" + str(gini) + ".txt"
@@ -151,8 +151,8 @@ output = open(outputFileSummary,'w')
 
 output.write("Telang anomaly result file for - gridRes: " + str(gridRes) + " | Gini: " + str(gini) + "\n")
 output.write("Number of clusters reported: " + str(k) + "\n")
-output.write("Space size - Min / Mean / Max: " + str(min(clusters_space_extension)) + " / " + str(sum(clusters_space_extension)/len(clusters_space_extension)) + " / " + str(max(clusters_space_extension)) + "\n")
-output.write("Timespan - Min / Mean / Max: " + str(min(clusters_length)) + " / " + str(sum(clusters_length)/len(clusters_length)) + " / " + str(max(clusters_length))+ "\n")
+output.write("Space size - Min / Mean / Max: " + str(min(clusters_space_extension)) + " / " + str(sum(clusters_space_extension)/float(len(clusters_space_extension))) + " / " + str(max(clusters_space_extension)) + "\n")
+output.write("Timespan - Min / Mean / Max: " + str(min(clusters_length)) + " / " + str(sum(clusters_length)/float(len(clusters_length))) + " / " + str(max(clusters_length))+ "\n")
 output.write("Test statistic - Min / Mean / Max: " + str(min(clusters_teststatistic)) + " / " + str(sum(clusters_teststatistic)/len(clusters_teststatistic)) + " / " + str(max(clusters_teststatistic)) + "\n")
 output.write("High counts anomaly / Total anomalies: " + str(float(sum([(float(clusters_vals[i][1])/float(neighbors_vals[i][1]) >= 1) for i in range(k)]))/k) + '\n')
 output.write("\n\n")

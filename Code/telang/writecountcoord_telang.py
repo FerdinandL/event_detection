@@ -17,16 +17,15 @@ import numpy as np
 gridRes = sys.argv[1]
 dirInputPath = sys.argv[2]
 dirOutputPath = sys.argv[3]
-inBoundsPath = sys.argv[4]
+inBoundsFile = dirInputPath + 'inBounds_' + str(gridRes) + '.txt'
 
 # For Remote
 #dirInputPath = ~/Data/harish_grid_h/
-#dirOutputPath = /home/vgc/flegros/telang
+#dirOutputPath = ~/Data/harish_grid_h/
 
 # Local
 #dirInputPath = '/home/ferdinand/Documents/NYU/Data/harish_grid_h/'
 #dirOutputPath = '/home/ferdinand/Documents/NYU/Data/telang/'
-#inBoundsPath = '/home/ferdinand/Documents/NYU/Data/harish_grid_h/inBounds_' + str(gridRes) + '.txt'
 
 #%% ------------- Write HARISH_GRID_HOUR coordinates file -----------------
 coord_input = open(dirInputPath + "gridCoordinates_" +str(gridRes) + ".txt")
@@ -129,7 +128,7 @@ ct_d_grid1110_h.close()
 
 print "Drop-offs count file written"
 
-#%%-------------- Write HARISH_GRID_HOUR pickups+drop-offs counts file---------------
+#%%-------------- Write HARISH_GRID_HOUR pickups+drop-offs counts file ---------------
 
 ct_p_grid1110_h= pd.read_csv(dirInputPath + "ct_p_grid1110_h_"+str(gridRes)+".csv",header = 0)
 ct_d_grid1110_h= pd.read_csv(dirInputPath + "ct_d_grid1110_h_"+str(gridRes)+".csv", header = 0)
@@ -142,7 +141,7 @@ print "Pickups + Drop-offs count file computed"
 
 #%% REMOVE CELLS OUT OF MANHATTAN
 
-inBounds = pd.read_csv(inBoundsPath, names=['longitude','latitude','inManhattan'])
+inBounds = pd.read_csv(inBoundsFile, names=['longitude','latitude','inManhattan'])
 cellsInBounds = np.array(inBounds['inManhattan'])
 cellsInBounds = np.tile(cellsInBounds,ndays*nhours)
 ct_pd_grid1110_h = ct_pd_grid1110_h[cellsInBounds]
