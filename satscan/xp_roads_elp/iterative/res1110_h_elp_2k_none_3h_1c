@@ -1,0 +1,124 @@
+                                 _____________________________
+
+                                        SaTScan v9.4.2
+                                 _____________________________
+
+
+Program run on: Wed Aug 24 16:10:27 2016
+
+Retrospective Space-Time analysis
+scanning for clusters with high or low rates
+using the Space-Time Permutation model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Study period.......................: 0 to 743
+Number of locations................: 3874
+Total number of cases..............: 19534084
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: 1377, 2006, 2007, 2031, 236, 2638, 2686, 2690, 2692, 2695, 417, 426,
+                          60, 62, 64, 66, 67, 714, 77, 939, 942
+  Coordinates...........: (3.16192e+08,4.03684e+08)
+  Semiminor axis........: 1988.22
+  Semimajor axis........: 9941.11
+  Angle (degrees).......: 24.00
+  Shape.................: 5.00
+  Time frame............: 529 to 531
+  Number of cases.......: 2989
+  Expected cases........: 570.35
+  Observed / expected...: 5.24
+  Test statistic........: 2532.624568
+
+Note: As the number of Monte Carlo replications was set to zero, no hypothesis testing was done
+and no p-values are reported.
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Case File        : /home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/Casgraph1110_h_orig.cas
+  Time Precision   : Generic
+  Start Time       : 0
+  End Time         : 743
+  Coordinates File : /home/ferdinand/Documents/NYU/satscan/xp_roads_elp/Coordgraph1110_utm.geo
+  Coordinates      : Cartesian
+
+Analysis
+--------
+  Type of Analysis        : Retrospective Space-Time
+  Probability Model       : Space-Time Permutation
+  Scan for Areas with     : High or Low Rates
+  Time Aggregation Units  : Generic
+  Time Aggregation Length : 1
+
+Output
+------
+  Main Results File : /home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/res1110_h_elp_2k_none_3h_1c
+
+Data Checking
+-------------
+  Temporal Data Check     : Check to ensure that all cases and controls are within the specified temporal study period.
+  Geographical Data Check : Check to ensure that all observations (cases, controls and populations) are within the specified geographical area.
+
+Spatial Neighbors
+-----------------
+  Use Non-Euclidian Neighbors file : No
+  Use Meta Locations File          : No
+  Multiple Coordinates Type        : Allow only one set of coordinates per location ID.
+
+Spatial Window
+--------------
+  Maximum Spatial Cluster Size : 50 percent of population at risk
+  Maximum Spatial Cluster Size : 2000 Cartesian units
+  Window Shape                 : Elliptic
+  Non-Compactness Penalty      : None
+
+Temporal Window
+---------------
+  Minimum Temporal Cluster Size : 1 Generic
+  Maximum Temporal Cluster Size : 3 Generics
+
+Space And Time Adjustments
+--------------------------
+  Adjust for Weekly Trends, Nonparametric : No
+
+Inference
+---------
+  P-Value Reporting                  : Default Combination
+  Number of Replications             : 0
+  Adjusting for More Likely Clusters : No
+
+Spatial Output
+--------------
+  Report Hierarchical Clusters           : No
+  Restrict Reporting to Smaller Clusters : No
+
+Temporal Graphs
+---------------
+  Produce Temporal Graphs : No
+
+Other Output
+------------
+  Report Critical Values  : No
+  Report Monte Carlo Rank : No
+
+Elliptic Scan
+-------------
+  Ellipse Shapes                          : 1.5, 2, 3, 4, 5
+  Number of Angles for Each Ellipse Shape : 4, 6, 9, 12, 15
+
+Run Options
+-----------
+  Processer Usage   : All Available Proccessors
+  Suppress Warnings : No
+  Logging Analysis  : Yes
+_______________________________________________________________________________________________
+
+Program completed  : Wed Aug 24 16:12:36 2016
+Total Running Time : 2 minutes 9 seconds
+Processor Usage    : 4 processors

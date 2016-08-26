@@ -1,0 +1,240 @@
+                                 _____________________________
+
+                                        SaTScan v9.4.2
+                                 _____________________________
+
+
+Program run on: Thu Aug 25 02:12:44 2016
+
+Retrospective Space-Time analysis
+scanning for clusters with high or low rates
+using the Space-Time Permutation model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Study period.......................: 0 to 743
+Number of locations................: 3874
+Total number of cases..............: 19397038
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: 64, 66, 60, 2692, 2690, 2695, 2007, 62, 67, 942, 2031, 2006, 236,
+                          2686, 417, 77, 939, 426, 1377, 714, 2638
+  Coordinates...........: (3.16192e+08,4.03684e+08)
+  Semiminor axis........: 1988.22
+  Semimajor axis........: 9941.11
+  Angle (degrees).......: 24.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-23_1 to 2011-10-23_3
+  Number of cases.......: 2989
+  Expected cases........: 570.35
+  Observed / expected...: 5.24
+  Test statistic........: 2532.624568
+
+2.Location IDs included.: 64, 66, 60, 2692, 2690, 2695, 2007, 62, 67, 942, 2031, 2006, 236,
+                          2686, 417, 77, 939, 426, 1377, 714, 2638
+  Coordinates...........: (3.16192e+08,4.03684e+08)
+  Semiminor axis........: 1988.22
+  Semimajor axis........: 9941.11
+  Angle (degrees).......: 24.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-9_1 to 2011-10-9_3
+  Number of cases.......: 2780
+  Expected cases........: 561.29
+  Observed / expected...: 4.95
+  Test statistic........: 2229.344952
+
+3.Location IDs included.: 64, 66, 60, 2692, 2690, 2695, 2007, 62, 67, 942, 2031, 2006, 236,
+                          2686, 417, 77, 939, 426, 1377, 714, 2638
+  Coordinates...........: (3.16192e+08,4.03684e+08)
+  Semiminor axis........: 1988.22
+  Semimajor axis........: 9941.11
+  Angle (degrees).......: 24.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-2_1 to 2011-10-2_3
+  Number of cases.......: 2624
+  Expected cases........: 538.32
+  Observed / expected...: 4.87
+  Test statistic........: 2070.850439
+
+4.Location IDs included.: 64, 66, 60, 2692, 2690, 2695, 2007, 62, 67, 942, 2031, 2006, 236,
+                          2686, 417, 77, 939, 426, 1377, 714, 2638
+  Coordinates...........: (3.16192e+08,4.03684e+08)
+  Semiminor axis........: 1988.22
+  Semimajor axis........: 9941.11
+  Angle (degrees).......: 24.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-16_1 to 2011-10-16_3
+  Number of cases.......: 2656
+  Expected cases........: 543.97
+  Observed / expected...: 4.88
+  Test statistic........: 2099.659774
+
+5.Location IDs included.: 3112, 3499, 452, 727, 1709, 1710, 2740, 3741, 1704, 2742, 724, 1711,
+                          3721
+  Coordinates...........: (3.16182e+08,4.03653e+08)
+  Semiminor axis........: 1773.20
+  Semimajor axis........: 7092.81
+  Angle (degrees).......: -75.00
+  Shape.................: 4.00
+  Time frame............: 2011-10-8_0 to 2011-10-8_2
+  Number of cases.......: 3553
+  Expected cases........: 958.42
+  Observed / expected...: 3.71
+  Test statistic........: 2060.963234
+
+6.Location IDs included.: 64, 66, 60, 2692, 2690, 2695, 2007, 62, 67, 942, 2031, 2006, 236,
+                          2686, 417, 77, 939, 426, 1377, 714, 2638
+  Coordinates...........: (3.16192e+08,4.03684e+08)
+  Semiminor axis........: 1988.22
+  Semimajor axis........: 9941.11
+  Angle (degrees).......: 24.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-22_1 to 2011-10-22_3
+  Number of cases.......: 2402
+  Expected cases........: 478.11
+  Observed / expected...: 5.02
+  Test statistic........: 1953.562631
+
+7.Location IDs included.: 417, 426, 942, 2686, 939, 62, 2638, 2690, 54, 60, 2684, 2692, 64, 57,
+                          543, 2683, 66, 2695
+  Coordinates...........: (3.16186e+08,4.03681e+08)
+  Semiminor axis........: 1876.22
+  Semimajor axis........: 9381.10
+  Angle (degrees).......: 24.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-15_1 to 2011-10-15_3
+  Number of cases.......: 2303
+  Expected cases........: 475.09
+  Observed / expected...: 4.85
+  Test statistic........: 1807.387103
+
+8.Location IDs included.: 417, 426, 942, 2686, 939, 62, 2638, 2690, 54, 60, 2684, 2692, 64, 57,
+                          543, 2683, 66, 2695
+  Coordinates...........: (3.16186e+08,4.03681e+08)
+  Semiminor axis........: 1876.22
+  Semimajor axis........: 9381.10
+  Angle (degrees).......: 24.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-29_1 to 2011-10-29_3
+  Number of cases.......: 2255
+  Expected cases........: 502.25
+  Observed / expected...: 4.49
+  Test statistic........: 1633.893783
+
+9.Location IDs included.: 416, 2312, 2313, 2576, 2034, 2314, 3106, 2574, 340, 2316, 1074, 3163
+  Coordinates...........: (3.16142e+08,4.03596e+08)
+  Semiminor axis........: 1970.67
+  Semimajor axis........: 9853.36
+  Angle (degrees).......: -60.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-8_1 to 2011-10-8_3
+  Number of cases.......: 3801
+  Expected cases........: 1283.08
+  Observed / expected...: 2.96
+  Test statistic........: 1610.133617
+
+10.Location IDs included.: 417, 426, 942, 2686, 939, 62, 2638, 2690, 54, 60, 2684, 2692, 64, 57,
+                          543, 2683, 66, 2695
+  Coordinates...........: (3.16186e+08,4.03681e+08)
+  Semiminor axis........: 1876.22
+  Semimajor axis........: 9381.10
+  Angle (degrees).......: 24.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-8_1 to 2011-10-8_3
+  Number of cases.......: 2035
+  Expected cases........: 405.90
+  Observed / expected...: 5.01
+  Test statistic........: 1651.698467
+
+Note: As the number of Monte Carlo replications was set to zero, no hypothesis testing was done
+and no p-values are reported.
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Case File        : /home/vgc/flegros/satscan/iterative/sit_2k_3h/Casgraph1110_h.cas
+  Time Precision   : Generic
+  Start Time       : 0
+  End Time         : 743
+  Coordinates File : /home/vgc/flegros/satscan/iterative/Coordgraph1110_utm.geo
+  Coordinates      : Cartesian
+
+Analysis
+--------
+  Type of Analysis        : Retrospective Space-Time
+  Probability Model       : Space-Time Permutation
+  Scan for Areas with     : High or Low Rates
+  Time Aggregation Units  : Generic
+  Time Aggregation Length : 1
+
+Output
+------
+  Main Results File : /home/vgc/flegros/satscan/iterative/sit_2k_3h/res
+
+Data Checking
+-------------
+  Temporal Data Check     : Check to ensure that all cases and controls are within the specified temporal study period.
+  Geographical Data Check : Check to ensure that all observations (cases, controls and populations) are within the specified geographical area.
+
+Spatial Neighbors
+-----------------
+  Use Non-Euclidian Neighbors file : No
+  Use Meta Locations File          : No
+  Multiple Coordinates Type        : Allow only one set of coordinates per location ID.
+
+Spatial Window
+--------------
+  Maximum Spatial Cluster Size : 50 percent of population at risk
+  Maximum Spatial Cluster Size : 2000 Cartesian units
+  Window Shape                 : Elliptic
+  Non-Compactness Penalty      : None
+
+Temporal Window
+---------------
+  Minimum Temporal Cluster Size : 1 Generic
+  Maximum Temporal Cluster Size : 3 Generics
+
+Space And Time Adjustments
+--------------------------
+  Adjust for Weekly Trends, Nonparametric : No
+
+Inference
+---------
+  P-Value Reporting                  : Default Combination
+  Number of Replications             : 0
+  Adjusting for More Likely Clusters : No
+
+Spatial Output
+--------------
+  Report Hierarchical Clusters           : No
+  Restrict Reporting to Smaller Clusters : No
+
+Temporal Graphs
+---------------
+  Produce Temporal Graphs : No
+
+Other Output
+------------
+  Report Critical Values  : No
+  Report Monte Carlo Rank : No
+
+Elliptic Scan
+-------------
+  Ellipse Shapes                          : 1.5, 2, 3, 4, 5
+  Number of Angles for Each Ellipse Shape : 4, 6, 9, 12, 15
+
+Run Options
+-----------
+  Processer Usage   : All Available Proccessors
+  Suppress Warnings : No
+  Logging Analysis  : Yes
+_______________________________________________________________________________________________
+
+Program completed  : Thu Aug 25 02:17:16 2016
+Total Running Time : 4 minutes 32 seconds
+Processor Usage    : 48 processors

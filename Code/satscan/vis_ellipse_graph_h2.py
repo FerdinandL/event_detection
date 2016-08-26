@@ -11,14 +11,19 @@ import numpy as np
 import sys
 
 
-inputfile = sys.argv[1]
-coord_input = sys.argv[2]
-kml_filename = sys.argv[3]
+#inputfile = sys.argv[1]
+#coord_input = sys.argv[2]
+#kml_filename = sys.argv[3]
 
-
-#inputfile = "/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/resg1110_h_elp_2k_none_ymdh_b"
+#Local regular satscan res file
+#inputfile = "/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/hourly/resg1110_h_elp_2k_none_3_ymdh"
 #coord_input = "/home/ferdinand/Documents/NYU/satscan/xp_roads/coord_graph.csv"
-#kml_filename = "graph_h_elp_2k_none"
+#kml_filename = "graph_h_elp_2k_none_3"
+
+#Local iterative satscan res file
+inputfile = '/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/sit_2k_3h/summary_2k_3h.txt'
+coord_input = "/home/ferdinand/Documents/NYU/satscan/xp_roads/coord_graph.csv"
+kml_filename = 'sit_2k_3h'
 
 
 #%% Extracting Clusters IDs
@@ -34,7 +39,7 @@ clusters_teststatistic = []
 cluster_index = 1
 done = False
 
-while (line[0:9] != 'Processor'): #untill the end of the result file
+while (line[0:9] != 'Processor'): #until the end of the result file
 
     # Go to line "1. Location IDs include"
     while ((line[0] != str(cluster_index)) & (line[0:2] != str(cluster_index))):              
@@ -202,7 +207,7 @@ st.split(' to ')[1].split('-')[0]
 
 #%% Writing kml file
 
-kml = open(inputfile + ".kml", "w")
+kml = open(inputfile.replace('.txt','') + ".kml", "w")
 
 
 # Header of kml file
@@ -259,7 +264,7 @@ for i in range(1,len(clusters_ids)+1):
     kml.write("""<Folder><name>Cluster """ + str(i) + """ Locations</name><description></description>\n""")      
     
     for j in range(len(clusters_ids[i-1])):
-        kml.write("			<Placemark><name>"+clusters_ids[i-1][j]+"</name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>"+str(clusters_ids_location[i-1][j][0]) + ',' +str(clusters_ids_location[i-1][j][1]) + ",0</coordinates></Point></Placemark>\n") 
+        kml.write("			<Placemark><name></name><visibility>0</visibility><description></description><styleUrl>#low-rate-placemark</styleUrl><Point><coordinates>"+str(clusters_ids_location[i-1][j][0]) + ',' +str(clusters_ids_location[i-1][j][1]) + ",0</coordinates></Point></Placemark>\n") 
     kml.write("	</Folder>\n")
 
 kml.write("""

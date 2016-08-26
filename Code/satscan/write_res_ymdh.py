@@ -19,8 +19,7 @@ def generic_to_ymdh(t_generic):
     d = (((t_generic - h)/24) %  31) + 1
     ymdh = str(y) + '/' + str(m) + '/' + str(d) + '-' + str(h)
     return ymdh
-    
-generic_to_ymdh(187)
+
 
 # Processing wriing file
 res = open(inputfile)

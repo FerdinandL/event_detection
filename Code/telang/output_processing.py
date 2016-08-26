@@ -25,16 +25,16 @@ inputFolder = sys.argv[6]
 inputCoordFolder = sys.argv[7]
 
 
-#gridRes = 180
+#gridRes = 500
 #gini = 0.1
-#inputFolder = '/home/ferdinand/Documents/NYU/Data/telang/xp_telang_' + str(gridRes) + '_s_t/'
+#inputFolder = '/home/ferdinand/Documents/NYU/Data/telang/xp_telang_' + str(gridRes) + '/'
 #inputCoordFolder = '/home/ferdinand/Documents/NYU/Data/harish_grid_s_h/'
 #k = 40
-#startDay = 25
+#startDay = 1
 #endDay = 31
 
 #Remote
-#inputFolder = '~/telang/xp_telang_' + str(gridRes) + '/'
+#inputFolder = '~/telang/xp_telang_gridRes/'
 #inputCoordFolder = ~/Data/harish_grid_h/
 
 outputFile = inputFolder + 'Anomaly_' + str(gini) + '.txt'
@@ -292,7 +292,7 @@ for i in range(1,len(clusters_ids)+1):
     
     print "  ------------------  Writing cluster " + str(i) + "-------------"    
     
-    kml.write("""	<Style id="cluster-""" + str(i) + """-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Number of cases</th><td style="white-space:nowrap;">$[Number of cases]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Observed / expected</th><td style="white-space:nowrap;">$[Observed / expected]</td></tr></table>]]></text></BalloonStyle></Style>
+    kml.write("""	<Style id="cluster-""" + str(i) + """-style"><IconStyle><Icon></Icon></IconStyle><LabelStyle><scale>1.0</scale></LabelStyle><LineStyle><color>3fff0000</color></LineStyle><PolyStyle><color>40ff0000</color></PolyStyle><BalloonStyle><text><![CDATA[<b>$[snippet]</b><br/><table border="0"><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Time frame</th><td style="white-space:nowrap;">$[Time frame]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean density</th><td style="white-space:nowrap;">$[Mean density]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Test statistic</th><td style="white-space:nowrap;">$[Test statistic]</td></tr><tr><th style="text-align:left;white-space:nowrap;padding-right:5px;">Mean (clust / neighb)</th><td style="white-space:nowrap;">$[Mean (clust / neighb)]</td></tr></table>]]></text></BalloonStyle></Style>
 	<StyleMap id="cluster-""" + str(i) + """-stylemap"><Pair><key>normal</key><styleUrl>#cluster-""" + str(i) + """-style</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#cluster-""" + str(i) + """-style</styleUrl></Pair></StyleMap>
     """)
     
@@ -301,14 +301,23 @@ for i in range(1,len(clusters_ids)+1):
     ## get datetime in local variables
     beg_dt = clusters_timespan[i-1][0]
     end_dt = clusters_timespan[i-1][1]
+
+    ## Get cluster barycenter
+    barlongi = 0
+    barlati = 0
+    for j in range(len(clusters_bounds[i-1])):
+        barlongi += float(clusters_bounds[i-1][j][0])
+        barlati += float(clusters_bounds[i-1][j][1])
+    barlongi = barlongi / len(clusters_bounds[i-1])
+    barlati = barlati / len(clusters_bounds[i-1]) 
     
     kml.write("""	<Placemark>
 		<name>""" + str(i) + """</name>
-		<snippet>SaTScan Cluster #""" + str(i) + """</snippet>
+		<snippet>Telang Cluster #""" + str(i) + """</snippet>
 		<visibility>1</visibility>
 		<TimeSpan><begin>""" + beg_dt.split('_')[0] + """T""" + '{:02}'.format(int(beg_dt.split('_')[1])) + """:59:00Z</begin><end>""" + end_dt.split('_')[0] + """T""" + '{:02}'.format(int(end_dt.split('_')[1])) + """:23:00Z</end></TimeSpan>
 		<styleUrl>#cluster-""" + str(i) + """-stylemap</styleUrl>
-		<ExtendedData><Data name="Time frame"><value>""" + clusters_timespan[i-1][0] + ' to ' + clusters_timespan[i-1][1] +"""</value></Data><Data name="Mean cluster cells count"><value>""" + clusters_vals[i-1][1] + """</value></Data><Data name="Test statistic"><value>""" + str(a_cells.loc[i-1,'score']) + """</value></Data><Data name="Mean cluster / Mean neighbors"><value>""" + str(float(clusters_vals[i-1][1])/float(neighbors_vals[i-1][1])) + """</value></Data></ExtendedData>
+		<ExtendedData><Data name="Time frame"><value>""" + clusters_timespan[i-1][0] + ' to ' + clusters_timespan[i-1][1] +"""</value></Data><Data name="Mean density"><value>""" + clusters_vals[i-1][1] + """</value></Data><Data name="Test statistic"><value>""" + str(int(a_cells.loc[i-1,'score'])) + """</value></Data><Data name="Mean (clust / neighb)"><value>""" + "{0:.2f}".format(float(clusters_vals[i-1][1])/float(neighbors_vals[i-1][1])) + """</value></Data></ExtendedData>
 		<MultiGeometry>
 			<Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>""")
     
@@ -320,7 +329,7 @@ for i in range(1,len(clusters_ids)+1):
                    
                
     kml.write("""</coordinates></LinearRing></outerBoundaryIs></Polygon>
-			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>-73.9857,40.7331,0</coordinates></Point>
+			<Point><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>""" + str(barlongi) + ',' + str(barlati) + ',0' + """</coordinates></Point>
 		</MultiGeometry>
 	</Placemark>  
     """)    # WHAT IS ALTITUDE??? Nevermind

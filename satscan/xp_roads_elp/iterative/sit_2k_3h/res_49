@@ -1,0 +1,11 @@
+49.Location IDs included.: 1710, 1704, 727, 3112, 3741, 1711, 3499, 724, 452, 1709
+  Coordinates...........: (3.16181e+08,4.03656e+08)
+  Semiminor axis........: 1499.17
+  Semimajor axis........: 7495.85
+  Angle (degrees).......: -84.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-13_23 to 2011-10-14_1
+  Number of cases.......: 2071
+  Expected cases........: 678.39
+  Observed / expected...: 3.05
+  Test statistic........: 918.819241

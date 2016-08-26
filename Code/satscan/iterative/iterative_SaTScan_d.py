@@ -19,6 +19,7 @@ import pandas as pd
 import numpy as np
 
 n_clusters_reported = int(sys.argv[1])
+#n_clusters_reported = 3
 
 inputParamPath = "/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/paramg1110_d_elp_2k_none_4d_1c.2.prm"
 inputCaseFile = "/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/Casgraph1110_d.cas"

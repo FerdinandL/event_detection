@@ -19,17 +19,25 @@ import pandas as pd
 import numpy as np
 
 n_clusters_reported = int(sys.argv[1])
+inputParamFile = sys.argv[2]
+outputDirPath = sys.argv[3]
+resName = sys.argv[4]
 
-inputParamFile = "/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/paramg1110_h_elp_2k_none_3h_1c.prm"
+#inputParamFile = '/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/param1110_h_elp_' + str(maxSize/1000) + 'k_none_'+str(maxTemp)+'h_1c.prm'
+#outputDirPath = '/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/' + it_maxS_maxT/
+#resName = res_1110_h_2k_none_7h_1c
+resFile = outputDirPath + resName
 inputCaseFile = "/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/Casgraph1110_h.cas"
-resFile = "/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/resg1110_h_elp_2k_none_3h_1c"
-outputFile = "/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/globalRes_h.txt"
-tmp_outputFile = "/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/secondaryRes_h.txt"
+outputFile = outputDirPath + "globalRes_h.txt"
+tmp_outputFile = outputDirPath + "secondaryRes_h.txt"
 
 #%% UpdateCounts function
 
-def updateCounts(cluster_loc_ids, cluster_time_ids, inputCaseFile):
-    counts = pd.read_csv(inputCaseFile, names=["node_id","count","time_interval"], sep = " ",index_col=False)  
+def intervalToDatetime(interval):
+    return '2011-10-' + str((interval/24)+1) + '_' + str(interval % 24)
+
+def updateCounts(cluster_loc_ids, cluster_time_ids, inputCaseFileNew):
+    counts = pd.read_csv(inputCaseFileNew, names=["node_id","count","time_interval"], sep = " ",index_col=False)  
     counts['time_interval'] = pd.to_numeric(counts['time_interval'])
     
     # Now implement calculation
@@ -59,7 +67,7 @@ def updateCounts(cluster_loc_ids, cluster_time_ids, inputCaseFile):
             counts = counts.set_value(rowIndex,'count',newCount)
     
     # Write to csv
-    counts.to_csv(inputCaseFile, header = False, sep = " ", index = False)
+    counts.to_csv(inputCaseFileNew, header = False, sep = " ", index = False)
 
 #%% -------- Main loop -------
 
@@ -67,9 +75,13 @@ output = open(outputFile,"w")
 tmp_output = open(tmp_outputFile,"w")
 cluster_rank = 1
 
+call(['cp',inputCaseFile, outputDirPath])
+inputCaseFileNew = outputDirPath + 'Casgraph1110_h.cas'
+
 while(cluster_rank <= n_clusters_reported):
     
-    cluster_loc_ids = []    
+    cluster_loc_ids = []   
+    
     
     print "SaTScan iteration number: " + str(cluster_rank)
     # ./SaTScanBatch64 + inputParamFile
@@ -82,6 +94,7 @@ while(cluster_rank <= n_clusters_reported):
         ## TODO : Translate time intervals to datetime
         for line in currentRes:
             output.write(line) 
+            
         output.close()
          
     # Collecting cluster info even for first cluster          
@@ -92,7 +105,6 @@ while(cluster_rank <= n_clusters_reported):
     
     if (cluster_rank != 1):
         tmp_output.write(line.replace("1.Loc", str(cluster_rank)+".Loc"))
-    
     
     # Adding cluster locations id to current list cluster_loc_ids
     # i.) Processing first line of location ids list
@@ -110,7 +122,7 @@ while(cluster_rank <= n_clusters_reported):
         
         if (cluster_rank != 1):        
             tmp_output.write(line) # Adding unprocessed line to secondary cluster output file
-        
+            
         line = line.replace(" ","")
         line = line.replace("\n","")  
         if (line[len(line)-1] == ','):
@@ -121,10 +133,10 @@ while(cluster_rank <= n_clusters_reported):
     # collect cluster information
     while(line[2:6]!="Test"):        
         line = currentRes.readline()
-        
+               
         if (cluster_rank != 1):        
             tmp_output.write(line)
-        
+               
         if (line[2:6] == "Time"): # collect cluster timespan to update data
             line = line.split(":")[1]
             line = line.replace(" ", "")
@@ -133,7 +145,7 @@ while(cluster_rank <= n_clusters_reported):
             # To be adapted if result file processed
             cluster_startint = int(line[0])
             cluster_endint = int(line[1]) ## End interval is included in cluster timespan
-        
+               
     cluster_time_ids = range(cluster_startint,cluster_endint+1)
     cluster_loc_ids = map(int, cluster_loc_ids)
             
@@ -141,7 +153,7 @@ while(cluster_rank <= n_clusters_reported):
         tmp_output.write("\n")
     
     # 2.) Updating clusters location values in raw data at /xp_roads/Casgraph1110_d.cas
-    updateCounts(cluster_loc_ids, cluster_time_ids, inputCaseFile)    
+    updateCounts(cluster_loc_ids, cluster_time_ids, inputCaseFileNew)    
     
     cluster_rank += 1 
 
@@ -152,8 +164,41 @@ tmp_output.close()
 print "Building global output file"
 tmp_output = open(tmp_outputFile)
 
-for line in fileinput.input(outputFile, inplace = 1):        
+# Concatenating all results files
+for line in fileinput.input(outputFile, inplace = 1):            
     if (line[0:5] == "Note:"):
         for tmp_line in tmp_output:
             print tmp_line.replace("\n","")
     print line.replace("\n","") 
+
+# Converting time intervals to datetimes
+for line in fileinput.input(outputFile, inplace = 1):            
+    line1 = line
+    if (line[2:12] == "Time frame"): # collect cluster timespan to update data      
+        line1 = line1.split(":")[1]
+        line1 = line1.replace(" ", "")
+        line1 = line1.split("to")
+        # TODO : Verify that result files comes with time indicated in time_interval generic unit
+        # To be adapted if result file processed
+        cluster_startint = int(line1[0])
+        cluster_endint = int(line1[1])
+        line1 = '  Time frame............: ' + intervalToDatetime(cluster_startint) + ' to ' + intervalToDatetime(cluster_endint) + '\n'
+    print line1.replace("\n","") 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

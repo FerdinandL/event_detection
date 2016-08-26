@@ -21,17 +21,15 @@ def longToMeter(deg,lat):
     return(2*math.pi*R_earth*math.cos(lat*math.pi/180)*deg/360)
     
 
-deltaLong = 74.000069-73.977207
-deltaLat = 40.764337 - 40.732941
+deltaLong = 74.027209-74.026027
+deltaLat = 40.701643 - 40.700748
 
-deltaLong = 73.988985 -73.935406
-deltaLat =  40.804275 - 40.730833
 
-deltaLong = 74.004893 -73.963089
-deltaLat = 40.799114 - 40.741789
+deltaX250 = longToMeter(deltaLong, 40.703627)
+deltaY250 = latToMeter(deltaLat)
 
-deltaX = longToMeter(deltaLong, 40.764337)
-deltaY = latToMeter(deltaLat)
+deltaX100 = longToMeter(deltaLong, 40.700748)
+deltaY100 = latToMeter(deltaLat)
 
 theta4 = math.atan(deltaX/deltaY) #output in rad
 theta4 = theta4*180/math.pi
