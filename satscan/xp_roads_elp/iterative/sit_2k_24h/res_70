@@ -1,0 +1,11 @@
+70.Location IDs included.: 1371, 1339, 1970, 1386, 169, 168, 624, 3291, 174, 2758, 621, 3737
+  Coordinates...........: (3.16165e+08,4.03496e+08)
+  Semiminor axis........: 1792.52
+  Semimajor axis........: 8962.59
+  Angle (degrees).......: -60.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-22_7 to 2011-10-22_15
+  Number of cases.......: 1560
+  Expected cases........: 290.70
+  Observed / expected...: 5.37
+  Test statistic........: 1351.755205

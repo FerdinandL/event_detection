@@ -1,0 +1,12 @@
+99.Location IDs included.: 1225, 3609, 3515, 1792, 926, 547, 614, 1229, 450, 2779, 1211, 3827,
+                          1097, 888
+  Coordinates...........: (3.16275e+08,4.03459e+08)
+  Semiminor axis........: 1989.39
+  Semimajor axis........: 9946.94
+  Angle (degrees).......: -60.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-9_1 to 2011-10-9_3
+  Number of cases.......: 94
+  Expected cases........: 641.64
+  Observed / expected...: 0.15
+  Test statistic........: 367.100829

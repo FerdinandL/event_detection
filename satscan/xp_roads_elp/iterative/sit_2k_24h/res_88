@@ -1,0 +1,12 @@
+88.Location IDs included.: 3020, 3022, 3018, 3585, 2272, 3025, 1546, 305, 3718, 3587, 3222,
+                          3221, 3311
+  Coordinates...........: (3.1615e+08,4.03622e+08)
+  Semiminor axis........: 1982.74
+  Semimajor axis........: 9913.69
+  Angle (degrees).......: -60.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-21_20 to 2011-10-22_4
+  Number of cases.......: 5022
+  Expected cases........: 2388.34
+  Observed / expected...: 2.10
+  Test statistic........: 1099.021287

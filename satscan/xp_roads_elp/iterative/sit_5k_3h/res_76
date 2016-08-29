@@ -1,0 +1,12 @@
+76.Location IDs included.: 3419, 1815, 3801, 3783, 3272, 3045, 3044, 796, 1816, 2291, 2289,
+                          2800, 519, 556, 3420, 1814, 3803, 1707, 3799, 3638
+  Coordinates...........: (3.16202e+08,4.03646e+08)
+  Semiminor axis........: 4817.16
+  Semimajor axis........: 24085.78
+  Angle (degrees).......: 60.00
+  Shape.................: 5.00
+  Time frame............: 2011-10-22_1 to 2011-10-22_3
+  Number of cases.......: 2599
+  Expected cases........: 863.06
+  Observed / expected...: 3.01
+  Test statistic........: 1129.267647

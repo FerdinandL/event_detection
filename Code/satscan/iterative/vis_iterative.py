@@ -24,10 +24,10 @@ inputCoordFolder = sys.argv[4]
 #inputCoordFolder = ~/satscan/iterative/???
 
 #Local
-k = 10
-inputFolder = '/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/sit_2k_3h/'
-inputCoordFoler = '/home/ferdinand/Documents/NYU/satscan/xp_roads/coord_graph.csv'
-refOutput = '2k_3h'
+#k = 10
+#inputFolder = '/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/sit_2k_3h/'
+#inputCoordFoler = '/home/ferdinand/Documents/NYU/satscan/xp_roads/coord_graph.csv'
+#refOutput = '2k_3h'
 
 #%% BUILD GLOBAL RES FILE 
 
@@ -36,23 +36,33 @@ res = open(inputFolder + 'res')
 outputRes = open(outputFileSummary,'w')
 
 line = res.readline()
+print line
 
 #Writing header
 while (line[0:len('1.Location IDs')] != '1.Location IDs'):
     outputRes.write(line)
     line = res.readline()
+    print "Looking for 1st cluster"
     
+print "\n"
+print "\n"
+
 # Going to footer in initial res
 while(line[0:len('Note: As')] !='Note: As'):
-    res.readline()
     line = res.readline()
+    print "Going to footer"
+
+print "\n"
+print "\n"
 
 # writing res_i contents
 for i in range(1,k+1):
+    print "Processing res_" + str(i)
     res_tmp = open(inputFolder + 'res_' + str(i))
     for line_tmp in res_tmp:
         outputRes.write(line_tmp)
     outputRes.write('\n')
+    print "res_" + str(i) + "written"
 
 # Writing footer
 while (line != ''):

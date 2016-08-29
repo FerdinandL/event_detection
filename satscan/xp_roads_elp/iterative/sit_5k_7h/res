@@ -1,0 +1,126 @@
+                                 _____________________________
+
+                                        SaTScan v9.4.2
+                                 _____________________________
+
+
+Program run on: Fri Aug 26 23:28:59 2016
+
+Retrospective Space-Time analysis
+scanning for clusters with high or low rates
+using the Space-Time Permutation model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Study period.......................: 0 to 743
+Number of locations................: 3874
+Total number of cases..............: 19193962
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: 3452, 1075, 1207, 3033, 1193, 3191, 136, 1190, 1204, 2747, 3199,
+                          3533, 3476, 1786, 1081, 1199, 1203, 432, 2655, 2654, 2402, 1205,
+                          1179, 2627, 422, 966, 3198, 433, 2973, 2970, 3868, 3530, 2749, 2964,
+                          1169, 689, 3572, 1145, 3192, 2963, 3249
+  Coordinates...........: (3.16257e+08,4.03492e+08)
+  Semiminor axis........: 4889.32
+  Semimajor axis........: 24446.60
+  Angle (degrees).......: -72.00
+  Shape.................: 5.00
+  Time frame............: 167 to 173
+  Number of cases.......: 1047
+  Expected cases........: 3806.81
+  Observed / expected...: 0.28
+  Test statistic........: 1408.474116
+
+Note: As the number of Monte Carlo replications was set to zero, no hypothesis testing was done
+and no p-values are reported.
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Case File        : /home/vgc/flegros/satscan/iterative/sit_5k_7h/Casgraph1110_h.cas
+  Time Precision   : Generic
+  Start Time       : 0
+  End Time         : 743
+  Coordinates File : /home/vgc/flegros/satscan/iterative/Coordgraph1110_utm.geo
+  Coordinates      : Cartesian
+
+Analysis
+--------
+  Type of Analysis        : Retrospective Space-Time
+  Probability Model       : Space-Time Permutation
+  Scan for Areas with     : High or Low Rates
+  Time Aggregation Units  : Generic
+  Time Aggregation Length : 1
+
+Output
+------
+  Main Results File : /home/vgc/flegros/satscan/iterative/sit_5k_7h/res
+
+Data Checking
+-------------
+  Temporal Data Check     : Check to ensure that all cases and controls are within the specified temporal study period.
+  Geographical Data Check : Check to ensure that all observations (cases, controls and populations) are within the specified geographical area.
+
+Spatial Neighbors
+-----------------
+  Use Non-Euclidian Neighbors file : No
+  Use Meta Locations File          : No
+  Multiple Coordinates Type        : Allow only one set of coordinates per location ID.
+
+Spatial Window
+--------------
+  Maximum Spatial Cluster Size : 50 percent of population at risk
+  Maximum Spatial Cluster Size : 5000 Cartesian units
+  Window Shape                 : Elliptic
+  Non-Compactness Penalty      : None
+
+Temporal Window
+---------------
+  Minimum Temporal Cluster Size : 1 Generic
+  Maximum Temporal Cluster Size : 7 Generics
+
+Space And Time Adjustments
+--------------------------
+  Adjust for Weekly Trends, Nonparametric : No
+
+Inference
+---------
+  P-Value Reporting                  : Default Combination
+  Number of Replications             : 0
+  Adjusting for More Likely Clusters : No
+
+Spatial Output
+--------------
+  Report Hierarchical Clusters           : No
+  Restrict Reporting to Smaller Clusters : No
+
+Temporal Graphs
+---------------
+  Produce Temporal Graphs : No
+
+Other Output
+------------
+  Report Critical Values  : No
+  Report Monte Carlo Rank : No
+
+Elliptic Scan
+-------------
+  Ellipse Shapes                          : 1.5, 2, 3, 4, 5
+  Number of Angles for Each Ellipse Shape : 4, 6, 9, 12, 15
+
+Run Options
+-----------
+  Processer Usage   : All Available Proccessors
+  Suppress Warnings : No
+  Logging Analysis  : Yes
+_______________________________________________________________________________________________
+
+Program completed  : Sat Aug 27 00:00:43 2016
+Total Running Time : 31 minutes 44 seconds
+Processor Usage    : 48 processors

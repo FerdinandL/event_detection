@@ -1,0 +1,12 @@
+31.Location IDs included.: 3109, 3108, 2577, 2034, 2576, 2578, 2574, 3106, 413, 340, 2573, 416,
+                          2312
+  Coordinates...........: (3.16131e+08,4.03596e+08)
+  Semiminor axis........: 4387.19
+  Semimajor axis........: 17548.78
+  Angle (degrees).......: 15.00
+  Shape.................: 4.00
+  Time frame............: 2011-10-27_23 to 2011-10-28_4
+  Number of cases.......: 4644
+  Expected cases........: 1406.92
+  Observed / expected...: 3.30
+  Test statistic........: 2308.934790

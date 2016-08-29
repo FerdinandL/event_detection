@@ -1,0 +1,124 @@
+                                 _____________________________
+
+                                        SaTScan v9.4.2
+                                 _____________________________
+
+
+Program run on: Sat Aug 27 21:49:05 2016
+
+Retrospective Space-Time analysis
+scanning for clusters with low rates
+using the Space-Time Permutation model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Study period.......................: 0 to 743
+Number of locations................: 3874
+Total number of cases..............: 19686618
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: 1174, 2055, 2081, 1333, 3254, 3347, 1173, 1188, 1989, 427, 3296,
+                          2323, 3465, 1393
+  Coordinates...........: (3.1624e+08,4.03522e+08)
+  Semiminor axis........: 1915.50
+  Semimajor axis........: 9577.52
+  Angle (degrees).......: -60.00
+  Shape.................: 5.00
+  Time frame............: 210 to 216
+  Number of cases.......: 632
+  Expected cases........: 1907.59
+  Observed / expected...: 0.33
+  Test statistic........: 577.454676
+
+Note: As the number of Monte Carlo replications was set to zero, no hypothesis testing was done
+and no p-values are reported.
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Case File        : /home/vgc/flegros/satscan/iterative/sit_2k_7h_low/Casgraph1110_h.cas
+  Time Precision   : Generic
+  Start Time       : 0
+  End Time         : 743
+  Coordinates File : /home/vgc/flegros/satscan/iterative/Coordgraph1110_utm.geo
+  Coordinates      : Cartesian
+
+Analysis
+--------
+  Type of Analysis        : Retrospective Space-Time
+  Probability Model       : Space-Time Permutation
+  Scan for Areas with     : Low Rates
+  Time Aggregation Units  : Generic
+  Time Aggregation Length : 1
+
+Output
+------
+  Main Results File : /home/vgc/flegros/satscan/iterative/sit_2k_7h_low/res
+
+Data Checking
+-------------
+  Temporal Data Check     : Check to ensure that all cases and controls are within the specified temporal study period.
+  Geographical Data Check : Check to ensure that all observations (cases, controls and populations) are within the specified geographical area.
+
+Spatial Neighbors
+-----------------
+  Use Non-Euclidian Neighbors file : No
+  Use Meta Locations File          : No
+  Multiple Coordinates Type        : Allow only one set of coordinates per location ID.
+
+Spatial Window
+--------------
+  Maximum Spatial Cluster Size : 50 percent of population at risk
+  Maximum Spatial Cluster Size : 2000 Cartesian units
+  Window Shape                 : Elliptic
+  Non-Compactness Penalty      : None
+
+Temporal Window
+---------------
+  Minimum Temporal Cluster Size : 1 Generic
+  Maximum Temporal Cluster Size : 7 Generics
+
+Space And Time Adjustments
+--------------------------
+  Adjust for Weekly Trends, Nonparametric : No
+
+Inference
+---------
+  P-Value Reporting                  : Default Combination
+  Number of Replications             : 0
+  Adjusting for More Likely Clusters : No
+
+Spatial Output
+--------------
+  Report Hierarchical Clusters           : No
+  Restrict Reporting to Smaller Clusters : No
+
+Temporal Graphs
+---------------
+  Produce Temporal Graphs : No
+
+Other Output
+------------
+  Report Critical Values  : No
+  Report Monte Carlo Rank : No
+
+Elliptic Scan
+-------------
+  Ellipse Shapes                          : 1.5, 2, 3, 4, 5
+  Number of Angles for Each Ellipse Shape : 4, 6, 9, 12, 15
+
+Run Options
+-----------
+  Processer Usage   : All Available Proccessors
+  Suppress Warnings : No
+  Logging Analysis  : Yes
+_______________________________________________________________________________________________
+
+Program completed  : Sat Aug 27 21:54:41 2016
+Total Running Time : 5 minutes 36 seconds
+Processor Usage    : 48 processors

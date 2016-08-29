@@ -22,7 +22,7 @@ n_clusters_reported = int(sys.argv[1])
 inputParamFile = sys.argv[2]
 outputDirPath = sys.argv[3]
 
-#inputParamFile = '/home/vgc/flegros/satscan/iterative/param1110_h_elp_' + str(maxSize/1000) + 'k_none_'+str(maxTemp)+'h_1c.prm'
+#inputParamFile = '/home/vgc/flegros/satscan/iterative/param1110_h_elp_2k_none_3h_1c.prm'
 #outputDirPath = '/home/vgc/flegros/satscan/iterative/' + it_maxS_maxT/
 resFile = outputDirPath + 'res'
 inputCaseFile = "/home/vgc/flegros/satscan/iterative/Casgraph1110_h_orig.cas"

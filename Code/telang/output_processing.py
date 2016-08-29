@@ -27,11 +27,12 @@ inputCoordFolder = sys.argv[7]
 
 #gridRes = 500
 #gini = 0.1
-#inputFolder = '/home/ferdinand/Documents/NYU/Data/telang/xp_telang_' + str(gridRes) + '/'
-#inputCoordFolder = '/home/ferdinand/Documents/NYU/Data/harish_grid_s_h/'
 #k = 40
 #startDay = 1
 #endDay = 31
+#inputFolder = '/home/ferdinand/Documents/NYU/Data/telang/xp_telang_70/'
+#inputCoordFolder = '/home/ferdinand/Documents/NYU/Data/harish_grid_s_h/'
+
 
 #Remote
 #inputFolder = '~/telang/xp_telang_gridRes/'

@@ -1,0 +1,132 @@
+                                 _____________________________
+
+                                        SaTScan v9.4.2
+                                 _____________________________
+
+
+Program run on: Sun Aug 28 07:52:28 2016
+
+Retrospective Space-Time analysis
+scanning for clusters with high or low rates
+using the Space-Time Permutation model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Study period.......................: 0 to 743
+Number of locations................: 3874
+Total number of cases..............: 19190325
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: 1506, 353, 3433, 1546, 1481, 3018, 3020, 1037, 3718, 186, 2272, 1488,
+                          1456, 184, 188, 3717, 3022, 3161, 3592, 2919, 3160, 2573, 413, 3162,
+                          2661, 2813, 3585, 3227, 2574, 3025, 3584, 3229, 3587, 410, 3226,
+                          3583, 3582, 3853, 3588, 3221, 2812, 3222, 2817, 3847, 3220, 3589,
+                          3232, 3223, 408, 3821, 2662, 416, 305, 2572, 3217, 2312, 2576, 531,
+                          2034, 406, 3802, 2313, 2142, 3015, 2818, 3106, 2810, 3753, 2314, 405,
+                          612, 3316, 340, 2569, 3163, 3315, 3754, 3313, 338, 3752, 3312, 404,
+                          533, 2084, 2819, 3031, 2316, 3448, 189, 337, 3311, 3755, 3012, 3751,
+                          1137, 403, 516, 1138, 513, 3299, 2078, 2577, 1544, 1077, 3303, 502,
+                          3462, 1074, 3167, 2233, 3168, 3169, 3166, 2647
+  Coordinates...........: (3.16147e+08,4.03617e+08)
+  Semiminor axis........: 9261.44
+  Semimajor axis........: 37045.74
+  Angle (degrees).......: 75.00
+  Shape.................: 4.00
+  Time frame............: 334 to 336
+  Number of cases.......: 11688
+  Expected cases........: 6793.46
+  Observed / expected...: 1.72
+  Test statistic........: 1448.019413
+
+Note: As the number of Monte Carlo replications was set to zero, no hypothesis testing was done
+and no p-values are reported.
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Case File        : /home/vgc/flegros/satscan/iterative/sit_10k_3h/Casgraph1110_h.cas
+  Time Precision   : Generic
+  Start Time       : 0
+  End Time         : 743
+  Coordinates File : /home/vgc/flegros/satscan/iterative/Coordgraph1110_utm.geo
+  Coordinates      : Cartesian
+
+Analysis
+--------
+  Type of Analysis        : Retrospective Space-Time
+  Probability Model       : Space-Time Permutation
+  Scan for Areas with     : High or Low Rates
+  Time Aggregation Units  : Generic
+  Time Aggregation Length : 1
+
+Output
+------
+  Main Results File : /home/vgc/flegros/satscan/iterative/sit_10k_3h/res
+
+Data Checking
+-------------
+  Temporal Data Check     : Check to ensure that all cases and controls are within the specified temporal study period.
+  Geographical Data Check : Check to ensure that all observations (cases, controls and populations) are within the specified geographical area.
+
+Spatial Neighbors
+-----------------
+  Use Non-Euclidian Neighbors file : No
+  Use Meta Locations File          : No
+  Multiple Coordinates Type        : Allow only one set of coordinates per location ID.
+
+Spatial Window
+--------------
+  Maximum Spatial Cluster Size : 50 percent of population at risk
+  Maximum Spatial Cluster Size : 10000 Cartesian units
+  Window Shape                 : Elliptic
+  Non-Compactness Penalty      : None
+
+Temporal Window
+---------------
+  Minimum Temporal Cluster Size : 1 Generic
+  Maximum Temporal Cluster Size : 3 Generics
+
+Space And Time Adjustments
+--------------------------
+  Adjust for Weekly Trends, Nonparametric : No
+
+Inference
+---------
+  P-Value Reporting                  : Default Combination
+  Number of Replications             : 0
+  Adjusting for More Likely Clusters : No
+
+Spatial Output
+--------------
+  Report Hierarchical Clusters           : No
+  Restrict Reporting to Smaller Clusters : No
+
+Temporal Graphs
+---------------
+  Produce Temporal Graphs : No
+
+Other Output
+------------
+  Report Critical Values  : No
+  Report Monte Carlo Rank : No
+
+Elliptic Scan
+-------------
+  Ellipse Shapes                          : 1.5, 2, 3, 4, 5
+  Number of Angles for Each Ellipse Shape : 4, 6, 9, 12, 15
+
+Run Options
+-----------
+  Processer Usage   : All Available Proccessors
+  Suppress Warnings : No
+  Logging Analysis  : Yes
+_______________________________________________________________________________________________
+
+Program completed  : Sun Aug 28 08:41:42 2016
+Total Running Time : 49 minutes 14 seconds
+Processor Usage    : 48 processors

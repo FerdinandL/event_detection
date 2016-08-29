@@ -11,9 +11,13 @@ import numpy as np
 import sys
 
 
-#inputfile = sys.argv[1]
-#coord_input = sys.argv[2]
-#kml_filename = sys.argv[3]
+inputfile = sys.argv[1]
+coord_input = sys.argv[2]
+outputRef = sys.argv[3]
+
+kml_filename = outputRef
+
+outputDirPath = '/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/'+ outputRef +'/'
 
 #Local regular satscan res file
 #inputfile = "/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/hourly/resg1110_h_elp_2k_none_3_ymdh"
@@ -21,13 +25,14 @@ import sys
 #kml_filename = "graph_h_elp_2k_none_3"
 
 #Local iterative satscan res file
-inputfile = '/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/sit_2k_3h/summary_2k_3h.txt'
-coord_input = "/home/ferdinand/Documents/NYU/satscan/xp_roads/coord_graph.csv"
-kml_filename = 'sit_2k_3h'
+#inputfile = '/home/ferdinand/Documents/NYU/satscan/xp_roads_elp/iterative/sit_2k_3h/summary_2k_3h.txt'
+#coord_input = "/home/ferdinand/Documents/NYU/satscan/xp_roads/coord_graph.csv"
+#kml_filename = 'sit_2k_3h'
 
 
 #%% Extracting Clusters IDs
 results = open(inputfile)
+summary = open(outputDirPath+'sum_' + outputRef)
 
 line = results.readline()
 clusters_ids = []
